@@ -22,9 +22,10 @@ const Header = ({ siteTitle }) => (
         <Link className="font-bold block text-lg md:text-xl inline-block" to="/">
           {siteTitle}
         </Link>
+        <div className="ml-auto">
+        <Nav />
+        </div>
       </div>
-
-      <Nav />
 
     </div>
   </header>
@@ -35,7 +36,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Silver Fur`,
 }
 
 export default Header

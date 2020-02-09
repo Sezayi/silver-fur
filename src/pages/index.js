@@ -1,66 +1,49 @@
-import React from "react"
-import SEO from "../components/seo"
-import { motion } from 'framer-motion'
+import React from "react";
+import SEO from "../components/seo";
+import Particles from "../components/particles"
 
-const duration = 0.35
+class Particle {
+  constructor(x, y) {
+    this.pos = new Vector(x, y);
+    this.vel = new Vector(Math.random() - 0.5, Math.random() - 0.5);
+    this.acc = new Vector(0, 0);
+    this.hue = Math.random()*30-15;
+  }
 
-const container = {
-  visible: {
-    transition: {
-      when: 'beforeChildren',
-      staggerChildren: 0.2,
-      delayChildren: duration,
-    },
-  },
-}
-const item = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-  },
+  move(acc) {
+    if (acc) {
+      this.acc.addTo(acc);
+    }
+    this.vel.addTo(this.acc);
+    this.pos.addTo(this.vel);
+    if (this.vel.getLength() > maxSpeed) {
+      this.vel.setLength(maxSpeed);
+    }
+    this.acc.setLength(0);
+  }
+
+  wrap() {
+    if (this.pos.x > w) {
+      this.pos.x = 0;
+    } else if (this.pos.x < -this.fieldSize) {
+      this.pos.x = w - 1;
+    }
+    if (this.pos.y > h) {
+      this.pos.y = 0;
+    } else if (this.pos.y < -this.fieldSize) {
+      this.pos.y = h - 1;
+    }
+  }
 }
 
 const IndexPage = () => {
+
   return (
     <>
       <SEO title="Home" />
-      <motion.section
-        variants={container}
-        initial="hidden" 
-        animate="visible"
-        className="container"
-      >
-        <motion.div 
-          className="content"
-          variants={item}
-          transition="easeInOut"
-        >
-          <p className="text-lg md:text-xl pl-3 border-l-2 border-black">An opinionated starter for Gatsby v2 with TailwindCSS, PostCSS and Framer Motion page transitions.</p>
-        </motion.div>
-
-        <motion.div 
-          className="content"
-          variants={item}
-          transition="easeInOut"
-        >
-          <hr className="block my-8" />
-        </motion.div>
-
-        <motion.div 
-          className="content"
-          variants={item}
-          transition="easeInOut"
-        >
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <h2>Lorem ipsum dolor sit amet</h2>
-          
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </motion.div>
-      </motion.section>
+      <Particles/>
     </>
   )
 }
 
-export default IndexPage
+export default IndexPage  

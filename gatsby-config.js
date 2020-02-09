@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby x Tailwind x Framer Motion`,
-    description: `An opinionated starter for Gatsby v2 with TailwindCSS, PostCSS and Framer Motion page transitions.`,
-    author: `@samuelgoddard`,
+    title: `Barbara Langendijk x Noon Passama`,
+    description: `Silver Fur`,
+    author: `@sezayi arslan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

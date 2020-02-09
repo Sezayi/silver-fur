@@ -36,7 +36,7 @@ const AboutPage = () => {
           variants={item}
           transition="easeInOut"
         >
-          <p className="text-lg md:text-xl pl-3 border-l-2 border-black">Hello from the about page</p>
+          <p className="text-lg md:text-3xl pl-3 border-l-2 border-black">About the artists</p>
         </motion.div>
 
         <motion.div 
@@ -52,11 +52,12 @@ const AboutPage = () => {
           variants={item}
           transition="easeInOut"
         >
+          <h2>Barbara Langendijk</h2>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Noon Passama</h2>
           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-          <h2>Lorem ipsum dolor sit amet</h2>
           
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </motion.div>
       </motion.section>
     </>

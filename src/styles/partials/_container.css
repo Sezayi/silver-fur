@@ -1,7 +1,36 @@
 .container {
     @apply 
         mx-auto
-        px-8;
+        px-2;
 
-    max-width: theme('screens.lg');
+    max-width: theme('screens.xl');
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    perspective: 1200px;
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    z-index: 1;
+  }
+  
+  .overlay {
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  
+  img {
+    max-width: 60%;
+    transform: translateZ(0);
+  }
+  
