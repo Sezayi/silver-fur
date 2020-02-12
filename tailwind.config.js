@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mono: [
+          'Roboto',
           'IBM Plex Mono',
           'Menlo',
           'Monaco',
@@ -11,6 +12,9 @@ module.exports = {
           '"Courier New"',
           'monospace',
         ],
+        serif: [
+          'Source Serif Pro'
+        ]
       },
     }
   },

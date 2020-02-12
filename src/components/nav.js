@@ -18,12 +18,12 @@ const Nav = class extends React.Component {
     return (     
     <nav className="lg:flex lg:content-end lg:justify-end lg:flex-col">
       <div className={`navigation-wrapper navigation-wrapper--${menuActive}`} >
-        <ul className="md:bg-red md:flex md:w-full md:flex-row md:justify-start md:items-stretch">
+        <ul className="md:bg-transparant md:flex md:w-full md:flex-row md:justify-start md:items-stretch">
           <li>
-            <Link className="navigation-wrapper__link" onClick={this.toggleMenu} activeClassName="is-active" to="/project">Silver Fur</Link>
+            <Link className="navigation-wrapper__link font-bold" onClick={this.toggleMenu} activeClassName="is-active" to="/project">Silver Fur</Link>
           </li>
           <li>
-            <Link className="navigation-wrapper__link" onClick={this.toggleMenu} activeClassName="is-active" to="/about">About</Link>
+            <Link className="navigation-wrapper__link font-bold" onClick={this.toggleMenu} activeClassName="is-active" to="/about">About</Link>
           </li>
         </ul>
       </div>
