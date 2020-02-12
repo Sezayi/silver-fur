@@ -5,7 +5,7 @@ const ProjectPage = () => {
   return (
     <>
       <SEO title="Home" />
-      <section className="flex-wrap mt-24 mb-32 lg:items-center lg:flex lg:flex-row lg:mx-32 ">
+      <section className="flex-wrap mt-8 lg:mt-24 mb-32 lg:items-center lg:flex lg:flex-row lg:mx-32 ">
         <div className="flex justify-center w-full lg:w-6/12 ">
           <img className="lg:w-5/5" src="https://artifex.nu/storage/news-items/June2019/Bijzondere-aankoop-voor-de-sieradencollectie-van-Museum-Arnhem-header.jpg"></img>
         </div>

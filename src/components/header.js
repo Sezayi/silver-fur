@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 import Nav from '../components/nav'
 
 const Header = ({ siteTitle }) => (
-  <header className="py-8 md:py-16">
+  <header className="lg:py-8">
     
-    <div className="container">
+    <div className="py-4 container">
       <div className="flex flex-wrap items-center mb-4">
         <motion.button
           className="w-5 h-5 mr-3 block bg-gray-700 rounded"

@@ -48,7 +48,8 @@ Navigation
 
 .navigation-wrapper--is-active {
 	@apply
-		block;
+		block
+		bg-white;
 		transform: translateX(0);
 }
 
@@ -80,12 +81,13 @@ Navigation
 
 .navigation-button__lines {
 	@apply
+		bg-white
 		block
 		absolute
 		top-0
-		w-1/2
+		w-full
 		opacity-100
-		bg-white
+		h-px
 }
 
 .navigation-button.is-active {
@@ -95,6 +97,7 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-1 {
 	@apply
+		hidden
 		left-0;
 	margin-top: 2px;
 }
@@ -103,13 +106,15 @@ Navigation
 	@apply
 		left-0;
 	margin-top: 10px;
+	transform: rotate(45deg);
 }
 
 .navigation-button.is-active .navigation-button__line-3 {
 	@apply
-		hidden
-		left-0
-		mt-4;
+		left-0;
+		top: -6px;
+		transform: rotate(-45deg);
+		
 }
 
 .navigation-button.is-active .navigation-button__line-4 {
@@ -120,12 +125,14 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-5 {
 	@apply
+		hidden
 		right-0;
 	margin-top: 2px;
 }
 
 .navigation-button.is-active .navigation-button__line-6 {
 	@apply
+		hidden
 		right-0;
 	margin-top: 10px;
 }
