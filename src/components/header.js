@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <div className="flex flex-wrap items-center mb-4">
         <motion.button
-          className="w-5 h-5 mr-3 block bg-black rounded"
+          className="w-5 h-5 mr-3 block bg-gray-700 rounded"
           animate={{ rotate: 180 }}
           transition={{
             loop: Infinity,

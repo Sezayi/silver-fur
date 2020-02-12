@@ -142,7 +142,7 @@ Navigation
 
 .navigation-wrapper__link.is-active  {
 	@apply
-		text-black
+		text-gray-800
 		underline
 		block
 		py-1
@@ -152,7 +152,7 @@ Navigation
 
 .navigation-wrapper__link  {
   @apply
-  	text-black
+  	text-gray-800
   	block
   	py-1
   	px-4;

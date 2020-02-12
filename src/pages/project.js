@@ -10,7 +10,7 @@ const ProjectPage = () => {
           <img className="lg:w-5/5" src="https://artifex.nu/storage/news-items/June2019/Bijzondere-aankoop-voor-de-sieradencollectie-van-Museum-Arnhem-header.jpg"></img>
         </div>
         <div className="w-full p-8 lg:py-8 lg:px-24 lg:w-6/12">
-          <h1>Silver Fur now</h1>
+          <h1>Silver Faux Fur</h1>
           <p className="text-xl">Commodo try-hard chartreuse et drinking vinegar schlitz. Esse man bun dolore, ethical in reprehenderit live-edge affogato velit nostrud echo park. Sint poke offal, you probably haven't heard of them et poutine meggings consequat iceland disrupt occupy. Vinyl plaid activated charcoal cornhole small batch everyday carry slow-carb iPhone id air plant pop-up. Distillery keytar kitsch, hot chicken poke kogi fashion axe subway tile adaptogen unicorn you probably haven't heard of them tilde in cloud bread. Hoodie ut excepteur poke lorem labore esse vexillologist vinyl gochujang kale chips meggings in marfa mixtape.</p>
         </div>
       </section>

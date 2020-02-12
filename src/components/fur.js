@@ -3,10 +3,10 @@
 let canvas, ctx, field, w, h, fieldSize, columns, rows, noiseZ, particles, hue
 noiseZ = 0
 let particleCount = 20000
-let particleSize = 0.9
+let particleSize = 1
 fieldSize = 90
 let fieldForce = 0.05
-let noiseSpeed = 0.008
+let noiseSpeed = 0.010
 let sORp = true
 let trailLength = 0.2
 let hueBase = 60

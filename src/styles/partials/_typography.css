@@ -12,23 +12,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	@apply text-6xl;
+	@apply text-6xl text-gray-800;
 }
 
 h2 {
-	@apply text-3xl;
+	@apply text-3xl text-gray-800;
 }
 
 a {
-  @apply text-lg
+  @apply text-lg text-gray-800
 }
 
 /* Link */
 .link {
-  @apply text-black;
+  @apply text-gray-800;
 
   &:hover, &:focus {
-    @apply text-gray-600 underline;
+    @apply text-gray-800 underline;
   }
 
   &.is--active {
@@ -43,6 +43,7 @@ a {
   p {
     @apply 
       text-xl
+      text-gray-800
       mb-6;
   }
 
