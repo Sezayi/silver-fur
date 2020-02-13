@@ -3,7 +3,7 @@
 1.  **Clone the repo**
 
     ```sh
-    git clone 
+    git clone https://github.com/Sezayi/silver-fur.git
     ```
 
 1.  **Start developing.**
@@ -13,12 +13,11 @@
     ```sh
     yarn
     ```
-
-    Start developing locally (with gatsby-cli).
-
+    
+    Start your development
+    
     ```sh
-    cd 
-    gatsby develop
+    yarn develop
     ```
 
 1.  **Open the source code and start editing!**
