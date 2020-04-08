@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Barbara Langendijk x Noon Passama`,
-    description: `Silver Fur`,
+    title: `FEEL THE FUR`,
+    description: `PASSAMA / LANGENDIJK`,
     author: `@sezayi arslan`,
   },
   plugins: [

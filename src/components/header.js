@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import Nav from '../components/nav'
 
 const Header = ({ siteTitle }) => (
@@ -17,9 +17,9 @@ const Header = ({ siteTitle }) => (
             duration: 2,
             ease: "anticipate"
           }}
-        />
+        /> */}
 
-        <Link className="font-bold block text-lg md:text-xl inline-block z-10" to="/">
+        {/* <Link className="block text-lg md:text-xl inline-block z-10" to="/">
           {siteTitle}
         </Link> */}
         <div className="ml-auto">

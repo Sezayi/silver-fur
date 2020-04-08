@@ -20,6 +20,9 @@ const Nav = class extends React.Component {
       <div className={`navigation-wrapper navigation-wrapper--${menuActive}`} >
         <ul className="flex flex-col items-center mt-24 lg:mt-0 md:bg-transparant md:flex md:w-full md:flex-row md:justify-start md:items-stretch">  
           <li>
+            <Link className="navigation-wrapper__link text-5xl bg-transparant text-white lg:text-lg lg:text-black" onClick={this.toggleMenu} activeClassName="is-active" to="/">FUR</Link>
+          </li>
+          <li>
             <Link className="navigation-wrapper__link text-5xl text-white lg:text-lg lg:text-black" onClick={this.toggleMenu} activeClassName="is-active" to="/text">LIVIN IT</Link>
           </li>
           <li>

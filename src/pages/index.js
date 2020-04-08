@@ -42,8 +42,7 @@ const IndexPage = () => {
       >
         <motion.div variants={item} transition="easeInOut">
           <h1
-            className="font-normal text-gray-800 text-center text-5xl"
-            style={{ fontSize: 100 }}
+            className="font-normal text-gray-800 text-6xl text-center lg:text-7xl"
           >
             PASSAMA / LANGENDIJK
           </h1>
