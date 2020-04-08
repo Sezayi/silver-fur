@@ -17,26 +17,28 @@
   font-style: bold;
 } */
 
-/* source-serif-pro-regular - latin */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/SourceSerifPro-Regular.ttf') format('ttf');
-}
 
 @font-face {
-  font-family: 'Source Serif Pro';
-  font-style: medium;
-  font-weight: 500;
-  src: url('../fonts/SourceSerifPro-SemiBold.ttf') format('ttf');
+  font-family: 'Basis Grotesque Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Basis Grotesque Pro'), url('../fonts/BasisGrotesquePro-Regular.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Basis Grotesque Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Basis Grotesque Pro Bold'), url('../fonts/BasisGrotesquePro-Bold.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Basis Grotesque Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Basis Grotesque Pro Light'), url('../fonts/BasisGrotesquePro-Light.woff') format('woff');
   }
 
-@font-face {
-    font-family: 'Source Serif Pro';
-    font-style: bold;
-    font-weight: 700;
-    src: url('../fonts/SourceSerifPro-Bold.ttf') format('ttf');
-}
-  
-  
+

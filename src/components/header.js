@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     
     <div className="py-4 container">
       <div className="flex flex-wrap items-center mb-4">
-        <motion.button
+        {/* <motion.button
           className="w-5 h-5 mr-3 block bg-gray-700 rounded"
           animate={{ rotate: 180 }}
           transition={{
@@ -19,9 +19,9 @@ const Header = ({ siteTitle }) => (
           }}
         />
 
-        <Link className="font-bold block text-lg md:text-xl inline-block" to="/">
+        <Link className="font-bold block text-lg md:text-xl inline-block z-10" to="/">
           {siteTitle}
-        </Link>
+        </Link> */}
         <div className="ml-auto">
         <Nav />
         </div>
@@ -36,7 +36,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: `Silver Fur`,
+  siteTitle: `PASSAMA / LANGENDIJK`,
 }
 
 export default Header

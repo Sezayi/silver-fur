@@ -49,8 +49,15 @@ Navigation
 .navigation-wrapper--is-active {
 	@apply
 		block
+		bg-black;
+		transform: translateX(0);
+	
+	@screen md {
+		@apply 
+		block
 		bg-white;
 		transform: translateX(0);
+	}
 }
 
 .navigation-button {
@@ -149,11 +156,19 @@ Navigation
 
 .navigation-wrapper__link.is-active  {
 	@apply
-		text-gray-800
+		text-white
 		underline
 		block
 		py-1
 		px-4;
+	@screen md {
+		@apply
+		text-black
+		underline
+		block
+		py-1
+		px-4;
+		}
   
   }
 

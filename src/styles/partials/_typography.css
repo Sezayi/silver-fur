@@ -1,5 +1,5 @@
 body {
-  @apply font-serif antialiased;
+  @apply font-mono antialiased;
 }
 
 /* Headings */
@@ -20,7 +20,7 @@ h2 {
 }
 
 a {
-  @apply text-lg text-gray-800
+  @apply text-lg text-gray-800 
 }
 
 /* Link */
@@ -28,7 +28,7 @@ a {
   @apply text-gray-800;
 
   &:hover, &:focus {
-    @apply text-gray-800 underline;
+    @apply underline;
   }
 
   &.is--active {
@@ -42,12 +42,18 @@ a {
   /* Paragraph */
   p {
     @apply 
+      font-sans
       text-xl
       mb-6;
   }
 
   /* Headings following paragraphs */
   p + h1, p + h2, p + h3, p + h4 {
-    @apply pt-6 block;
+    @apply pt-6;
   }
 }
+
+p::selection {
+    background: #000000;
+    color: white
+  }

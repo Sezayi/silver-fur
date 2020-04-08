@@ -36,7 +36,7 @@ const AboutPage = () => {
           variants={item}
           transition="easeInOut"
         >
-          <h1 className="text-5xl pl-3 border-l-2 border-black">About the artists</h1>
+          <h1 className="text-5xl">About the artists</h1>
         </motion.div>
 
         <motion.div 
