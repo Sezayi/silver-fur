@@ -29,7 +29,7 @@ const TextPage = () => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="container"
+        className="container-small"
       >
         <motion.div className="content" variants={item} transition="easeInOut">
           <h1 className="text-5xl">Livin it</h1>
@@ -41,15 +41,12 @@ const TextPage = () => {
           transition="easeInOut"
         ></motion.div>
 
-        <motion.div className="content" variants={item} transition="easeInOut">
-          <hr className="block my-8" />
-        </motion.div>
-
         <motion.div
           className="content font-bold"
           variants={item}
           transition="easeInOut"
         >
+          <hr className="block my-8" />
           <p>
             A conversation between Passama/Langendijk and Femke de Vries on
             24/03/2020
@@ -57,20 +54,18 @@ const TextPage = () => {
         </motion.div>
 
         <motion.div className="content" variants={item} transition="easeInOut">
-          <hr className="block my-8" />
-        </motion.div>
-
-        <motion.div className="content" variants={item} transition="easeInOut">
           <p>
-            We had been in touch about their project quite a
-            while ago, maybe even 1,5 years, and only via mail. So, it was nice
-            to finally talk in real life about how this work explores the many
-            dimensions and meanings of fur: fur as an heirloom, as a rich
-            material but also a symbol of wealth, power, animal cruelty, glamour
-            and heritage. The pieces that were developed throughout the process
-            are not structured like a traditional fashion collection but take
-            the shape of a series of 5 coats, several jewelry pieces, a pomander
-            and scent. Each item explores certain values and ideas around fur.
+            We had been in touch about their project quite a while ago, maybe
+            even 1,5 years, and only via mail. So, it was nice to finally talk
+            in real life about how this work explores the many dimensions and
+            meanings of fur: fur as an heirloom, as a rich material but also a
+            symbol of wealth, power, animal cruelty, glamour and heritage. The
+            pieces that were developed throughout the process are not structured
+            like a traditional fashion collection but take the shape of a series
+            of 5 coats, several jewelry pieces, a pomander and scent. Each item
+            explores certain values and ideas around fur.
+          </p>
+          <p>
             This is the second project that fashion designer Barbara Langendijk
             and jewelry designer Noon Passama work on together, and some items
             from the first project continue in this one. In the first project,
@@ -82,216 +77,244 @@ const TextPage = () => {
             Right after our talk I went to the Apple store to have my laptop
             fixed. While I was walking up the spiral staircase, a woman wearing
             a fur coat was walking up the stairs right in front of me. It was an
-            old fur coat. At the height of her bottom the hairs were worn off
-            and the v-structure of the fur parts became visible, showing the
-            intricate technique. The worn-out state of the coat was in great
-            contrast with the shiny glass and marble interior of this store full
-            of high-tech devices. I ended up sitting opposite of her at a table
-            waiting for an employee. She was, like so many fur-wearers today,
-            not a bourgeois, glamorous rich lady but a young woman in her 20’s
-            with a sporty cap on. I could picture her at a vintage store taking
-            the coat from a rack full of old fur coats surrounded with T-shirts,
+            old fur coat.
+          </p>
+          <p>
+            At the height of her bottom the hairs were worn off and the
+            v-structure of the fur parts became visible, showing the intricate
+            technique. The worn-out state of the coat was in great contrast with
+            the shiny glass and marble interior of this store full of high-tech
+            devices. I ended up sitting opposite of her at a table waiting for
+            an employee. She was, like so many fur-wearers today, not a
+            bourgeois, glamorous rich lady but a young woman in her 20’s with a
+            sporty cap on. I could picture her at a vintage store taking the
+            coat from a rack full of old fur coats surrounded with T-shirts,
             sweats and jeans. Disconnected from its luxurious history. The girl,
             combining the sporty cap with the fur coat, made me think of Kim
             Kardashian, someone who combines sportswear and luxury items easily,
             and who Langendijk and Passama visualized on one of their coats. The
             next time we meet is online and I tell them about my encounter with
-            this woman. ‘ELITENESS’ F: I was wondering how you decided who to
-            visualize on this particular coat. How did you choose? P/L: We made
-            a collection of images with celebrities who have contributed to
-            today’s popularity of fur. They are all celebrities, but from
-            different fields of work. But they do have the same way of wearing
-            fur; big, glamourous and over the top. The selection of celebrities
-            encompasses Melanie Trump, Lady Gaga, Snoop Dogg, Kim Kardashian,
-            Kendall Jenner, Justin Bieber and Rihanna, and we have more. All of
-            them are sporting these over- the- top big fluffy fur coats worn
-            with exaggeration. They represent glamour. These images were
-            actually easy to find, the first ones that pop up. In the pieces
-            that we made we didn’t want to exaggerate but these people
-            definitely do. By putting them together it shows the exaggeration of
-            these big personalities with impressive coats in a bit of an ironic
-            way. F: This idea of celebrities wearing fur coats shows the
-            connection between elite and fur. As we discussed earlier, I’m not
-            an expert in fur, but am interested in it as a cultural symbol. And
-            one of the things fur clearly states is wealth. It was interesting
-            to read in The Berg Companion to Fashion that from the fourteenth to
-            the seventeenth century, the kings and queens of England issued
-            royal proclamations in order to regulate fur. These royal
-            proclamations became part of what is known as “sumptuary
-            legislation” in which everyday practices involving clothing,
-            drinking and eating were subject to public governance. “Thus, from
-            very early on furs and fur garments were regulated, not only in
-            order to establish a hierarchy in desirable fur, but also to create
-            recognizable codes of social status in the wearer of fur”. So, fur
-            is not just for the elite because it was unaffordable for the
-            ‘common people’, it was also decided upon by royal rules. Another
-            important circumstance that contributed to fur being a symbol of
-            wealth, is when fur entered the world-wide trade. In 1670 Hudson’s
-            Bay Company was granted the Royal Charter from king Charles II,
-            meaning that they gained the right and power to trade fur. “Hudson’s
-            Bay has played an essential role in the fur trade which was
-            established in the sixteenth century between France, and then
-            England, and the New World (what is now Canada). It led to fur
-            circulating abundantly among nobility as well as among a rising
-            mercantile class of consumers as distinctive sign of class and
-            imperial wealth”. Of course, fur has a rich history existing long
-            before (and also alongside) Western royalty and Western trade
-            systems came into being, but when it’s wearing became determined by
-            royal rules and fur became a world-wide commodity, it started
-            functioning in a system beyond local indigenous tribes and with that
-            also started reaching more people and various layers of society.
-            Whereas today more people might be able to afford a coat with a fur
-            trimming, the idea of fur as an elitist garment still strongly
-            exists. Now not because of sumptuary laws but because its expensive
-            and because it has always been, and still is, a symbol of wealth and
-            glamour. The idea of wearing a fur coat on track pants or with a
-            sporty cap, like the woman in the Apple store, is something that
-            strongly represents our time, in which we mix street- and sportswear
-            with high-end luxury fashion items. It is a game between ‘high’ and
-            ‘low’ culture, between being elite and hinting or challenging ideas
-            around ‘eliteness’, high fashion and wealth. Again, an interesting
-            quote from the Berg Company Of Fashion mentioning that in 1926 there
-            were debates in the British House of Commons over the benefits of
-            socialism in providing women with practical and affordable cloth
-            coats against the excesses of capitalism represented by a luxury fur
-            coat, (…). This in response to a time (1920s) that “saw the image of
-            the fur-clad woman emerge as a sign of unevenly distributed economic
-            wealth”. INSIDE - OUTSIDE P/L: Deciding which images of fur-wearing
-            celebrities to use wasn’t easy because on a photo its often hard to
-            see if it’s real fur or not. Which makes you realize that, in order
-            to know if it’s real, you actually really have to touch it, open up
-            the hairs or burn and smell some hairs. It’s similar with this coat
-            that we made with the celebrities on/in it. It looks like hair but
-            the hairy structure actually exists of yarns, long floats. We first
-            learned about this jacquard weave, from an interest in the
-            technique. But then we noticed that the long floats from the weave
-            looked like hair. Jacquard is a technique that is used to weave
-            dessins. It is easy to recognize because of the big difference
-            between the two sides of the fabric. One side has a clear dessin,
-            the other side shows the floats that jump to new spots in the weave
-            leaving a messy look. These long floats resembling hair on the
-            ‘inside’ of the fabric and the clear depiction of the celebrities on
-            the ‘outside’, invited us to use both sides of the fabric. A
-            reversible coat. F: This reversibility is very interesting as it
-            relates to early habits in the wearing of fur and how fur relates to
-            social status. In the early period of fur trade in England the “fur
-            was mostly worn on the inside, visible as a trim on the collar and
-            cuffs. But during the late nineteenth century and throughout the
-            twentieth century, fur became increasingly identified with elite
-            women’s fashion and the fur coat was now “reversed” in the sense
-            that fur was now worn almost exclusively on the outside. P/L: With
-            jacquard, the floats are supposed to be on the inside and these
-            celebrities that are woven into it are people who are normally
-            clearly out there, visible. So, it was interesting to create this
-            dynamic between inside and outside, visible and invisible. F: Fur is
-            something we flaunt, it is something that’s clearly shown. And it is
-            interesting to see how celebrities, as the new elite, are very
-            visible in the media and with that create a certain meaning for the
-            fur coat. P/L: Yes, the representation of fur in the media is very
-            interesting, it led to this coat we made with words on it. We
-            collected texts that describe fur coats on sites like
-            Matchesfashion.com, Mytheresa.com and 24s.com. Like the celebrities,
-            the type of text that is used to describe fur contextualizes it. As
-            you also mention about text and how it’s a material to work with. F:
-            Yes, the words you use to describe something also creates value.
-            Words are in that sense a material to create meaning with. The words
-            connect the fur to a broader societal/cultural context. What kind of
-            texts did you use? P: I just now sent you the list of the selected
-            sentences that we’ve put on this coat. It includes sentences like:
-            “A sophisticated edit” “The grandeur of fur” “Adds daytime drama to
-            any look” “Conjures fantasy, glamour and couture” “The label's love
-            of drama” F: Wow, this is so interesting. The words ‘sophisticated’,
-            ‘grandeur’, ‘fantasy’, ‘glamour’, ‘couture’ and ‘drama’ clearly link
-            to the idea of this elitist woman and the excessiveness of her
-            lifestyle and the coat itself. THE HUNT F: What is interesting is
-            that there are also sentences connected to hunting in there. I
-            noticed the following ones: “A Trophy Piece” “A true collector's
-            item” And when researching celebrities and fur I found the following
-            header for an article on a website of a fur company: “Kim Kardashian
-            loves fur. She is a fashion assassin; she kills in anything she
-            wears. Kim is the focal point of millions of would be fashionistas
-            worldwide”. So, besides fur being linked to elite it is also
-            connected to the hunter, the hunt. The hunting of the rare, the
-            exclusive. These texts clearly show how various forms of power come
-            together in fur. Besides that, these texts both apply to a garment
-            and an animal at the same time; the rare animal, which is being
-            hunted, is seen as prey and as a trophy piece. The fur coat as
-            fashion item can also be seen as a trophy piece, that someone has
-            hunted for and now wears it. It is interesting and painful to see
-            how the hunt and killing of animals is objectified and connected to
-            glamour and power. F: This one I believe is also specifically
-            interesting: “Live in it” We could interpret this as in ‘the coat
-            being so nice and durable that we not just wear it, but we live in
-            it’. But for me it is also about the idea of living in someone
-            else’s coat. It reminds me of sleeping in an animal’s carcass like
-            Leonardo di Caprio does in the Revenant when he crawls into a dead
-            horse, and Luke Skywalker in Star Wars sleeping in the belly of his
-            dead Tautan, and of course of Hannibal Lector wearing someone else’s
-            skin in Silence Of The Lambs. An animal’s coat, or let’s say, a coat
-            of another being, literally changes into a human’s coat. To stay in
-            the language area: when you wear a coat made of fox or mink hide you
-            would say ‘I’m wearing fox’, or ‘I’m wearing mink’. The garment is
-            literally named after the animal. It changes the concept of this
-            well know question; ‘who are you wearing?’ This dynamic of the coat,
-            moving between various beings, also brings up the thought of women
-            wearing fur coats and holding their small dogs. The coat of the dog
-            will gradually continue into the coat that the woman is wearing,
-            made from mink, or maybe even dog, as that is a commonly used animal
-            in China’s fur industry. The woman and the dog have a loving
-            relation, but there’s a weird and dark dynamic between the three of
-            them. Dog-women-dog. CULTURED F: Next to the hunter who hunts
-            animals, another layer of power is added when you think of how the
-            fur trade went hand in hand with colonial powers. As mentioned
-            before, fur trade became an important economic unit for the
-            mid-sixteenth century to the 1870’s. By granting the Royal Charter
-            to Hudson’s Bay Company (HBC), HBC not only got this position in the
-            fur trade but also gained ownership of all the land drained by the
-            rivers flowing into Hudson’s Bay (…) this area covered approximately
-            40% of modern Canada. “The Hudson’s Bay, a company that is known for
-            its colonial power, deliberately pushed away first nations
-            communities, taking over their natural trade. The history of the fur
-            trade and fur garments is in many was a history of imperial class
-            distinctions but one that is also marked by gender and cultural
-            differences”. P/L: And this sentence is also interesting: “For an
-            afternoon at a modern art gallery” You have to be rich and to
-            appreciate art to wear fur. This creates so much context. Fur is
-            thus connected to being artistic and cultured. F: Which is quite
-            crude when we think of colonial powers and how they effected the
-            ideas around ‘being cultured’. TEXTURE AND TACTILITY F: Throughout
-            the process you have explored various values connected to the fur
-            coat but besides that you also clearly explored tactility and
-            texture using various techniques. P/L: Yes, the coat with text on it
-            for example doesn’t have text on it just to read it, the text also
-            creates texture. Using the same jacquard technique as the coat with
-            the celebrities on it, the woven texts are not just 2d and readable
-            on one side, but they also create a hairy structure, due to the long
-            floats, on the other side. Another technique that we are exploring
-            is knitted fur! I will show you a fabric swatch. It is an intricate
-            knit that is based upon scans of real fur. It is a transformation
-            from a dense 3d tactile material to a flat technical material.
-            Again, a translation that challenges one of the main traits of fur,
-            in this case its thick, fluffy character. F: Besides exploring the
-            texture and tactility of fur, you have also explored other forms.
-            P/L: Yes, to explore fur from another dimension and the many ways in
-            which it can be experienced, we made a scent which goes together
-            with a paper coat and a paper pomander. F: How did you decide what
-            the scent should be like? P/L: It was quite a long process to find
-            the right scent, because: what is the smell of fur? For us it
-            started with the idea of the heirloom, an older fur coat which is
-            worn by your grandmother or your mother for example. ‘The granny fur
-            coat’ we called it. So, it’s like an old vintage perfume. And the
-            scent is more like an impression of fur than to imitate the smell of
-            the animal itself. F: What kind of brief did you sent the perfumer,
-            how did you specifically describe what the scent of fur is to you?
-            P/L: He asked us: what kind of impression do you get when you smell
-            fur? We described it like a soft smell and something animal-like
-            with something glamourous. When you make a perfume, you work with
-            various so-called layers and notes. We wanted the base layer to be
-            from an animal, or an animal-like smell. Then we wanted the top
-            notes to be sweet and glamourous. But we didn’t want it to be too
-            animalistic either. Sometimes it got a bit too animally, like a
-            Civet cat. Yes, there’s one ingredient which is called Civet cat and
-            it has this really penetrating smell. We thought it was super
+            this woman.
+          </p>
+          <p>
+            <hr className="block mb-6 mt-8" />
+            <h2>‘ELITENESS’</h2>
+            <hr className="block mb-8" />
+            <p>
+              <strong>F:</strong> I was wondering how you decided who to
+              visualize on this particular coat. How did you choose?
+            </p>
+            <p>
+              <strong>P/L:</strong> We made a collection of images with
+              celebrities who have contributed to today’s popularity of fur.
+              They are all celebrities, but from different fields of work. But
+              they do have the same way of wearing fur; big, glamourous and over
+              the top. The selection of celebrities encompasses Melanie Trump,
+              Lady Gaga, Snoop Dogg, Kim Kardashian, Kendall Jenner, Justin
+              Bieber and Rihanna, and we have more. All of them are sporting
+              these over- the- top big fluffy fur coats worn with exaggeration.
+              They represent glamour. These images were actually easy to find,
+              the first ones that pop up. In the pieces that we made we didn’t
+              want to exaggerate but these people definitely do. By putting them
+              together it shows the exaggeration of these big personalities with
+              impressive coats in a bit of an ironic way.
+            </p>
+            <p>
+              <strong>F:</strong> This idea of celebrities wearing fur coats
+              shows the connection between elite and fur. As we discussed
+              earlier, I’m not an expert in fur, but am interested in it as a
+              cultural symbol. And one of the things fur clearly states is
+              wealth. It was interesting to read in The Berg Companion to
+              Fashion that from the fourteenth to the seventeenth century, the
+              kings and queens of England issued royal proclamations in order to
+              regulate fur. These royal proclamations became part of what is
+              known as “sumptuary legislation” in which everyday practices
+              involving clothing, drinking and eating were subject to public
+              governance.
+            </p>
+            <div className="relative italic text-2xl mb-8">
+              “Thus, from very early on furs and fur garments were regulated,
+              not only in order to establish a hierarchy in desirable fur, but
+              also to create recognizable codes of social status in the wearer
+              of fur.”
+            </div>
+            <p>
+              So, fur is not just for the elite because it was unaffordable for
+              the ‘common people’, it was also decided upon by royal rules.
+              Another important circumstance that contributed to fur being a
+              symbol of wealth, is when fur entered the world-wide trade. In
+              1670 Hudson’s Bay Company was granted the Royal Charter from king
+              Charles II, meaning that they gained the right and power to trade
+              fur. “Hudson’s Bay has played an essential role in the fur trade
+              which was established in the sixteenth century between France, and
+              then England, and the New World (what is now Canada). It led to
+              fur circulating abundantly among nobility as well as among a
+              rising mercantile class of consumers as distinctive sign of class
+              and imperial wealth”. Of course, fur has a rich history existing
+              long before (and also alongside) Western royalty and Western trade
+              systems came into being, but when it’s wearing became determined
+              by royal rules and fur became a world-wide commodity, it started
+              functioning in a system beyond local indigenous tribes and with
+              that also started reaching more people and various layers of
+              society. Whereas today more people might be able to afford a coat
+              with a fur trimming, the idea of fur as an elitist garment still
+              strongly exists. Now not because of sumptuary laws but because its
+              expensive and because it has always been, and still is, a symbol
+              of wealth and glamour. The idea of wearing a fur coat on track
+              pants or with a sporty cap, like the woman in the Apple store, is
+              something that strongly represents our time, in which we mix
+              street- and sportswear with high-end luxury fashion items. It is a
+              game between ‘high’ and ‘low’ culture, between being elite and
+              hinting or challenging ideas around ‘eliteness’, high fashion and
+              wealth. Again, an interesting quote from the Berg Company Of
+              Fashion mentioning that in 1926 there were debates in the British
+              House of Commons over the benefits of socialism in providing women
+              with practical and affordable cloth coats against the excesses of
+              capitalism represented by a luxury fur coat, (…). This in response
+              to a time (1920s) that “saw the image of the fur-clad woman emerge
+              as a sign of unevenly distributed economic wealth”.{" "}
+            </p>
+            <hr className="block mb-6 mt-8" />
+            <h2>INSIDE - OUTSIDE</h2>
+            <hr className="block mb-8" />
+            <p>
+              <strong>P/L:</strong> Deciding which images of fur-wearing
+              celebrities to use wasn’t easy because on a photo its often hard
+              to see if it’s real fur or not. Which makes you realize that, in
+              order to know if it’s real, you actually really have to touch it,
+              open up the hairs or burn and smell some hairs. It’s similar with
+              this coat that we made with the celebrities on/in it. It looks
+              like hair but the hairy structure actually exists of yarns, long
+              floats. We first learned about this jacquard weave, from an
+              interest in the technique. But then we noticed that the long
+              floats from the weave looked like hair. Jacquard is a technique
+              that is used to weave dessins. It is easy to recognize because of
+              the big difference between the two sides of the fabric. One side
+              has a clear dessin, the other side shows the floats that jump to
+              new spots in the weave leaving a messy look. These long floats
+              resembling hair on the ‘inside’ of the fabric and the clear
+              depiction of the celebrities on the ‘outside’, invited us to use
+              both sides of the fabric. A reversible coat.{" "}
+            </p>
+            F: This reversibility is very interesting as it relates to early
+            habits in the wearing of fur and how fur relates to social status.
+            In the early period of fur trade in England the “fur was mostly worn
+            on the inside, visible as a trim on the collar and cuffs. But during
+            the late nineteenth century and throughout the twentieth century,
+            fur became increasingly identified with elite women’s fashion and
+            the fur coat was now “reversed” in the sense that fur was now worn
+            almost exclusively on the outside. P/L: With jacquard, the floats
+            are supposed to be on the inside and these celebrities that are
+            woven into it are people who are normally clearly out there,
+            visible. So, it was interesting to create this dynamic between
+            inside and outside, visible and invisible. F: Fur is something we
+            flaunt, it is something that’s clearly shown. And it is interesting
+            to see how celebrities, as the new elite, are very visible in the
+            media and with that create a certain meaning for the fur coat. P/L:
+            Yes, the representation of fur in the media is very interesting, it
+            led to this coat we made with words on it. We collected texts that
+            describe fur coats on sites like Matchesfashion.com, Mytheresa.com
+            and 24s.com. Like the celebrities, the type of text that is used to
+            describe fur contextualizes it. As you also mention about text and
+            how it’s a material to work with. F: Yes, the words you use to
+            describe something also creates value. Words are in that sense a
+            material to create meaning with. The words connect the fur to a
+            broader societal/cultural context. What kind of texts did you use?
+            P: I just now sent you the list of the selected sentences that we’ve
+            put on this coat. It includes sentences like: “A sophisticated edit”
+            “The grandeur of fur” “Adds daytime drama to any look” “Conjures
+            fantasy, glamour and couture” “The label's love of drama” F: Wow,
+            this is so interesting. The words ‘sophisticated’, ‘grandeur’,
+            ‘fantasy’, ‘glamour’, ‘couture’ and ‘drama’ clearly link to the idea
+            of this elitist woman and the excessiveness of her lifestyle and the
+            coat itself. THE HUNT F: What is interesting is that there are also
+            sentences connected to hunting in there. I noticed the following
+            ones: “A Trophy Piece” “A true collector's item” And when
+            researching celebrities and fur I found the following header for an
+            article on a website of a fur company: “Kim Kardashian loves fur.
+            She is a fashion assassin; she kills in anything she wears. Kim is
+            the focal point of millions of would be fashionistas worldwide”. So,
+            besides fur being linked to elite it is also connected to the
+            hunter, the hunt. The hunting of the rare, the exclusive. These
+            texts clearly show how various forms of power come together in fur.
+            Besides that, these texts both apply to a garment and an animal at
+            the same time; the rare animal, which is being hunted, is seen as
+            prey and as a trophy piece. The fur coat as fashion item can also be
+            seen as a trophy piece, that someone has hunted for and now wears
+            it. It is interesting and painful to see how the hunt and killing of
+            animals is objectified and connected to glamour and power. F: This
+            one I believe is also specifically interesting: “Live in it” We
+            could interpret this as in ‘the coat being so nice and durable that
+            we not just wear it, but we live in it’. But for me it is also about
+            the idea of living in someone else’s coat. It reminds me of sleeping
+            in an animal’s carcass like Leonardo di Caprio does in the Revenant
+            when he crawls into a dead horse, and Luke Skywalker in Star Wars
+            sleeping in the belly of his dead Tautan, and of course of Hannibal
+            Lector wearing someone else’s skin in Silence Of The Lambs. An
+            animal’s coat, or let’s say, a coat of another being, literally
+            changes into a human’s coat. To stay in the language area: when you
+            wear a coat made of fox or mink hide you would say ‘I’m wearing
+            fox’, or ‘I’m wearing mink’. The garment is literally named after
+            the animal. It changes the concept of this well know question; ‘who
+            are you wearing?’ This dynamic of the coat, moving between various
+            beings, also brings up the thought of women wearing fur coats and
+            holding their small dogs. The coat of the dog will gradually
+            continue into the coat that the woman is wearing, made from mink, or
+            maybe even dog, as that is a commonly used animal in China’s fur
+            industry. The woman and the dog have a loving relation, but there’s
+            a weird and dark dynamic between the three of them. Dog-women-dog.
+            CULTURED F: Next to the hunter who hunts animals, another layer of
+            power is added when you think of how the fur trade went hand in hand
+            with colonial powers. As mentioned before, fur trade became an
+            important economic unit for the mid-sixteenth century to the 1870’s.
+            By granting the Royal Charter to Hudson’s Bay Company (HBC), HBC not
+            only got this position in the fur trade but also gained ownership of
+            all the land drained by the rivers flowing into Hudson’s Bay (…)
+            this area covered approximately 40% of modern Canada. “The Hudson’s
+            Bay, a company that is known for its colonial power, deliberately
+            pushed away first nations communities, taking over their natural
+            trade. The history of the fur trade and fur garments is in many was
+            a history of imperial class distinctions but one that is also marked
+            by gender and cultural differences”. P/L: And this sentence is also
+            interesting: “For an afternoon at a modern art gallery” You have to
+            be rich and to appreciate art to wear fur. This creates so much
+            context. Fur is thus connected to being artistic and cultured. F:
+            Which is quite crude when we think of colonial powers and how they
+            effected the ideas around ‘being cultured’. TEXTURE AND TACTILITY F:
+            Throughout the process you have explored various values connected to
+            the fur coat but besides that you also clearly explored tactility
+            and texture using various techniques. P/L: Yes, the coat with text
+            on it for example doesn’t have text on it just to read it, the text
+            also creates texture. Using the same jacquard technique as the coat
+            with the celebrities on it, the woven texts are not just 2d and
+            readable on one side, but they also create a hairy structure, due to
+            the long floats, on the other side. Another technique that we are
+            exploring is knitted fur! I will show you a fabric swatch. It is an
+            intricate knit that is based upon scans of real fur. It is a
+            transformation from a dense 3d tactile material to a flat technical
+            material. Again, a translation that challenges one of the main
+            traits of fur, in this case its thick, fluffy character. F: Besides
+            exploring the texture and tactility of fur, you have also explored
+            other forms. P/L: Yes, to explore fur from another dimension and the
+            many ways in which it can be experienced, we made a scent which goes
+            together with a paper coat and a paper pomander. F: How did you
+            decide what the scent should be like? P/L: It was quite a long
+            process to find the right scent, because: what is the smell of fur?
+            For us it started with the idea of the heirloom, an older fur coat
+            which is worn by your grandmother or your mother for example. ‘The
+            granny fur coat’ we called it. So, it’s like an old vintage perfume.
+            And the scent is more like an impression of fur than to imitate the
+            smell of the animal itself. F: What kind of brief did you sent the
+            perfumer, how did you specifically describe what the scent of fur is
+            to you? P/L: He asked us: what kind of impression do you get when
+            you smell fur? We described it like a soft smell and something
+            animal-like with something glamourous. When you make a perfume, you
+            work with various so-called layers and notes. We wanted the base
+            layer to be from an animal, or an animal-like smell. Then we wanted
+            the top notes to be sweet and glamourous. But we didn’t want it to
+            be too animalistic either. Sometimes it got a bit too animally, like
+            a Civet cat. Yes, there’s one ingredient which is called Civet cat
+            and it has this really penetrating smell. We thought it was super
             interesting because it was so very present and could represent the
             concept of maybe being overwhelmed by this whole idea of big fur
             coats. We also thought about incorporating that element, of being

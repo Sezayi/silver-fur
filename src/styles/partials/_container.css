@@ -11,6 +11,12 @@
     max-width: 1600px;
     margin: 0 auto;
   }
+
+.container-small {
+  width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
   
   .image-container {
     position: relative;

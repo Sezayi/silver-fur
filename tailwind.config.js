@@ -13,7 +13,7 @@ module.exports = {
       "5xl": "3rem",
       "6xl": "4rem",
       "7xl": "5rem",
-      "8xl": "8rem"
+      "8xl": "8rem",
     },
     extend: {
       fontFamily: {

@@ -29,7 +29,7 @@ const AboutPage = () => {
         variants={container}
         initial="hidden" 
         animate="visible"
-        className="container"
+        className="container-small"
       >
         <motion.div 
           className="content"
