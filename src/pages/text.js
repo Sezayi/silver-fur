@@ -32,7 +32,7 @@ const TextPage = () => {
         className="container-small"
       >
         <motion.div className="content" variants={item} transition="easeInOut">
-          <h1 className="text-5xl">Livin it</h1>
+          <h1 className="text-5xl tracking-widest">LIVIN IT</h1>
         </motion.div>
 
         <motion.div
