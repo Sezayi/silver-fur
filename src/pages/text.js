@@ -23,7 +23,7 @@ const item = {
 
 const TextPage = () => {
   return (
-    <>
+  <>
       <SEO title="TEXT" />
       <motion.section
         variants={container}
@@ -54,6 +54,7 @@ const TextPage = () => {
         </motion.div>
 
         <motion.div className="content" variants={item} transition="easeInOut">
+          <div>
           <p>
             We had been in touch about their project quite a while ago, maybe
             even 1,5 years, and only via mail. So, it was nice to finally talk
@@ -96,16 +97,16 @@ const TextPage = () => {
             next time we meet is online and I tell them about my encounter with
             this woman.
           </p>
-          <p>
+          
             <hr className="block mb-6 mt-8" />
             <h2>‘ELITENESS’</h2>
             <hr className="block mb-8" />
             <p>
-              <strong>F:</strong> I was wondering how you decided who to
+              F: I was wondering how you decided who to
               visualize on this particular coat. How did you choose?
             </p>
             <p>
-              <strong>P/L:</strong> We made a collection of images with
+              P/L: We made a collection of images with
               celebrities who have contributed to today’s popularity of fur.
               They are all celebrities, but from different fields of work. But
               they do have the same way of wearing fur; big, glamourous and over
@@ -120,7 +121,7 @@ const TextPage = () => {
               impressive coats in a bit of an ironic way.
             </p>
             <p>
-              <strong>F:</strong> This idea of celebrities wearing fur coats
+              F: This idea of celebrities wearing fur coats
               shows the connection between elite and fur. As we discussed
               earlier, I’m not an expert in fur, but am interested in it as a
               cultural symbol. And one of the things fur clearly states is
@@ -178,7 +179,7 @@ const TextPage = () => {
             <h2>INSIDE - OUTSIDE</h2>
             <hr className="block mb-8" />
             <p>
-              <strong>P/L:</strong> Deciding which images of fur-wearing
+              P/L: Deciding which images of fur-wearing
               celebrities to use wasn’t easy because on a photo its often hard
               to see if it’s real fur or not. Which makes you realize that, in
               order to know if it’s real, you actually really have to touch it,
@@ -196,6 +197,7 @@ const TextPage = () => {
               depiction of the celebrities on the ‘outside’, invited us to use
               both sides of the fabric. A reversible coat.{" "}
             </p>
+            <p>
             F: This reversibility is very interesting as it relates to early
             habits in the wearing of fur and how fur relates to social status.
             In the early period of fur trade in England the “fur was mostly worn
@@ -203,31 +205,45 @@ const TextPage = () => {
             the late nineteenth century and throughout the twentieth century,
             fur became increasingly identified with elite women’s fashion and
             the fur coat was now “reversed” in the sense that fur was now worn
-            almost exclusively on the outside. P/L: With jacquard, the floats
+            almost exclusively on the outside.</p>
+            <p> P/L: With jacquard, the floats
             are supposed to be on the inside and these celebrities that are
             woven into it are people who are normally clearly out there,
             visible. So, it was interesting to create this dynamic between
-            inside and outside, visible and invisible. F: Fur is something we
+            inside and outside, visible and invisible. </p>
+            <p>F: Fur is something we
             flaunt, it is something that’s clearly shown. And it is interesting
             to see how celebrities, as the new elite, are very visible in the
-            media and with that create a certain meaning for the fur coat. P/L:
+            media and with that create a certain meaning for the fur coat. </p>
+            <p>P/L:
             Yes, the representation of fur in the media is very interesting, it
             led to this coat we made with words on it. We collected texts that
             describe fur coats on sites like Matchesfashion.com, Mytheresa.com
             and 24s.com. Like the celebrities, the type of text that is used to
             describe fur contextualizes it. As you also mention about text and
-            how it’s a material to work with. F: Yes, the words you use to
+            how it’s a material to work with. </p>
+            F: Yes, the words you use to
             describe something also creates value. Words are in that sense a
             material to create meaning with. The words connect the fur to a
             broader societal/cultural context. What kind of texts did you use?
             P: I just now sent you the list of the selected sentences that we’ve
             put on this coat. It includes sentences like: “A sophisticated edit”
             “The grandeur of fur” “Adds daytime drama to any look” “Conjures
-            fantasy, glamour and couture” “The label's love of drama” F: Wow,
+            fantasy, glamour and couture” “The label's love of drama”. 
+            
+            
+            <p>F: Wow,
             this is so interesting. The words ‘sophisticated’, ‘grandeur’,
             ‘fantasy’, ‘glamour’, ‘couture’ and ‘drama’ clearly link to the idea
             of this elitist woman and the excessiveness of her lifestyle and the
-            coat itself. THE HUNT F: What is interesting is that there are also
+            coat itself.</p> 
+            
+            <hr className="block mb-6 mt-8" />
+            <h2>THE HUNT </h2> 
+            <hr className="block mb-8" />
+          
+            
+            <p>F: What is interesting is that there are also
             sentences connected to hunting in there. I noticed the following
             ones: “A Trophy Piece” “A true collector's item” And when
             researching celebrities and fur I found the following header for an
@@ -242,7 +258,10 @@ const TextPage = () => {
             prey and as a trophy piece. The fur coat as fashion item can also be
             seen as a trophy piece, that someone has hunted for and now wears
             it. It is interesting and painful to see how the hunt and killing of
-            animals is objectified and connected to glamour and power. F: This
+            animals is objectified and connected to glamour and power. </p>
+            
+            
+            <p>F: This
             one I believe is also specifically interesting: “Live in it” We
             could interpret this as in ‘the coat being so nice and durable that
             we not just wear it, but we live in it’. But for me it is also about
@@ -262,8 +281,14 @@ const TextPage = () => {
             continue into the coat that the woman is wearing, made from mink, or
             maybe even dog, as that is a commonly used animal in China’s fur
             industry. The woman and the dog have a loving relation, but there’s
-            a weird and dark dynamic between the three of them. Dog-women-dog.
-            CULTURED F: Next to the hunter who hunts animals, another layer of
+            a weird and dark dynamic between the three of them. Dog-women-dog.</p>
+            
+            <hr className="block mb-6 mt-8" />
+            <h2>CULTURED </h2>
+            <hr className="block mb-8" />
+            
+            
+            <p>F: Next to the hunter who hunts animals, another layer of
             power is added when you think of how the fur trade went hand in hand
             with colonial powers. As mentioned before, fur trade became an
             important economic unit for the mid-sixteenth century to the 1870’s.
@@ -275,15 +300,27 @@ const TextPage = () => {
             pushed away first nations communities, taking over their natural
             trade. The history of the fur trade and fur garments is in many was
             a history of imperial class distinctions but one that is also marked
-            by gender and cultural differences”. P/L: And this sentence is also
+            by gender and cultural differences”.</p>
+            
+            <p>P/L: And this sentence is also
             interesting: “For an afternoon at a modern art gallery” You have to
             be rich and to appreciate art to wear fur. This creates so much
-            context. Fur is thus connected to being artistic and cultured. F:
+            context. Fur is thus connected to being artistic and cultured. </p>
+            
+            <p>F:
             Which is quite crude when we think of colonial powers and how they
-            effected the ideas around ‘being cultured’. TEXTURE AND TACTILITY F:
+            effected the ideas around ‘being cultured’.</p> 
+            
+            <hr className="block mb-6 mt-8" /> 
+            <h2>TEXTURE AND TACTILITY</h2> 
+            <hr className="block mb-8" />
+            
+            <p>F:
             Throughout the process you have explored various values connected to
             the fur coat but besides that you also clearly explored tactility
-            and texture using various techniques. P/L: Yes, the coat with text
+            and texture using various techniques. </p>
+            
+            <p>P/L: Yes, the coat with text
             on it for example doesn’t have text on it just to read it, the text
             also creates texture. Using the same jacquard technique as the coat
             with the celebrities on it, the woven texts are not just 2d and
@@ -293,20 +330,32 @@ const TextPage = () => {
             intricate knit that is based upon scans of real fur. It is a
             transformation from a dense 3d tactile material to a flat technical
             material. Again, a translation that challenges one of the main
-            traits of fur, in this case its thick, fluffy character. F: Besides
+            traits of fur, in this case its thick, fluffy character. </p>
+            
+            <p>F: Besides
             exploring the texture and tactility of fur, you have also explored
-            other forms. P/L: Yes, to explore fur from another dimension and the
+            other forms. </p>
+            
+            <p>P/L: Yes, to explore fur from another dimension and the
             many ways in which it can be experienced, we made a scent which goes
-            together with a paper coat and a paper pomander. F: How did you
-            decide what the scent should be like? P/L: It was quite a long
+            together with a paper coat and a paper pomander. </p>
+            
+            <p>F: How did you
+            decide what the scent should be like? </p>
+            
+            <p>P/L: It was quite a long
             process to find the right scent, because: what is the smell of fur?
             For us it started with the idea of the heirloom, an older fur coat
             which is worn by your grandmother or your mother for example. ‘The
             granny fur coat’ we called it. So, it’s like an old vintage perfume.
             And the scent is more like an impression of fur than to imitate the
-            smell of the animal itself. F: What kind of brief did you sent the
+            smell of the animal itself. </p>
+            
+           <p> F: What kind of brief did you sent the
             perfumer, how did you specifically describe what the scent of fur is
-            to you? P/L: He asked us: what kind of impression do you get when
+            to you? </p>
+            
+            <p>P/L: He asked us: what kind of impression do you get when
             you smell fur? We described it like a soft smell and something
             animal-like with something glamourous. When you make a perfume, you
             work with various so-called layers and notes. We wanted the base
@@ -318,10 +367,14 @@ const TextPage = () => {
             interesting because it was so very present and could represent the
             concept of maybe being overwhelmed by this whole idea of big fur
             coats. We also thought about incorporating that element, of being
-            overwhelmed, but eventually we toned it down a bit. F: Interesting,
+            overwhelmed, but eventually we toned it down a bit. </p>
+            
+            <p>F: Interesting,
             this idea of layers in a scent. It’s like literally begin dressed in
             layers: A woman wearing a fur coat, let’s just say an animal, and
-            then she sprays her sweet perfume as notes over it. P/L: Yes, it is.
+            then she sprays her sweet perfume as notes over it. </p>
+            
+            <p>P/L: Yes, it is.
             And when you think of it, a fur coat is something you wear and a
             perfume is also something you wear. We use the same term for a
             garment as we do for a scent. And thus, by wearing this perfume you
@@ -330,7 +383,9 @@ const TextPage = () => {
             that can carry the smell. We chose paper because when you test
             perfume in a store, you get a small paper strip on which the perfume
             is sprayed. The look of the paper coat and the paper pomander both
-            hints towards the texture of fur. F: The paper pomander actually
+            hints towards the texture of fur. </p>
+            
+            <p>F: The paper pomander actually
             also looks like an animal’s tail, as it is a long cord with a dot of
             ‘hair’ at the end. P: The look of the pomander, made from hair like
             cut-outs from paper, refers to the look of fur and therefore gives a
@@ -338,14 +393,24 @@ const TextPage = () => {
             originally also often richly decorated and made from expensive
             materials, therefore it also became a status symbol of the elite.
             The idea to make a pomander from paper, a ‘worthless’ material also
-            questions this. P/L: Together the pomander, paper coat and scent
-            make it possible to wear fur without really wearing it. DURABILITY
-            F: This idea of the scent of a ‘granny fur coat’ hints to the
+            questions this. </p>
+            
+            <p>P/L: Together the pomander, paper coat and scent
+            make it possible to wear fur without really wearing it. </p>
+            
+            <hr className="block mb-6 mt-8" /> 
+            <h2>DURABILITY</h2>
+            <hr className="block mb-8" />
+            
+            
+            <p>F: This idea of the scent of a ‘granny fur coat’ hints to the
             concept of the heirloom, and as you mentioned before, vintage. An
             heirloom is something we value highly as it carries stories of
             previous lives, it can be a symbol of connection between
             generations, families and loved-ones. The heirloom is an object that
-            is granted a longer life than most objects. P/L: When we started the
+            is granted a longer life than most objects. </p>
+            
+            <p>P/L: When we started the
             project, we described it as a research into sustainability and
             durability. Durability is a better word for it than sustainability.
             The fur coat lasts long and has great monetary value, therefore it
@@ -356,8 +421,10 @@ const TextPage = () => {
             ‘silver – fur’ coat. The silver jewelry elements that resemble hair,
             create the look of a furry texture, and are placed on a padded
             material that hints to the fluffiness and density of a fur coat. So,
-            this coat connects the fur coat as heirloom and jewelry as heirloom.
-            F: As you mention, considering a garment as an heirloom questions
+            this coat connects the fur coat as heirloom and jewelry as heirloom.</p>
+            
+            
+            <p>F: As you mention, considering a garment as an heirloom questions
             our fast-fashion industry of quickly discarding garments due to a
             lack in material quality and constant changing styles. On a personal
             note I do think it is important to know that durability is also
@@ -372,7 +439,13 @@ const TextPage = () => {
             could change the fashion industry. There is some movement in Noon’s
             screen and she introduces her dog to us: Moon. Moon has short flat
             hair. She settles down next to Noon. We continue our conversation
-            while Noon pets Moon. DRESSING UP F: When you asked me to write a
+            while Noon pets Moon.</p> 
+            
+            <hr className="block mb-6 mt-8" /> 
+            <h2> DRESSING UP</h2> 
+            <hr className="block mb-8" />
+            
+            <p>F: When you asked me to write a
             text about this project I also had to think about my childhood. We
             used to have a big box full of garments to dress up in. In it there
             was this kind of shawl made from three matters attached to each
@@ -392,7 +465,14 @@ const TextPage = () => {
             fur, they wear animals in the city, a place where there are no other
             animals, only humans. In this environment fur-wearers don’t deflect
             but become very visible. Today we dress up like an animal to grab
-            attention and look elitist. ALTERNATIVES FOR CRUELTY F: Today fur is
+            attention and look elitist.</p> 
+            
+            <hr className="block mb-6 mt-8" /> 
+            <h2>ALTERNATIVES FOR CRUELTY</h2> 
+            <hr className="block mb-8" />
+            
+            
+            <p>F: Today fur is
             a strong symbol for animal cruelty “By the 1970s the fur coat was
             transformed from a desirable female commodity to a symbol for animal
             right’s activism” It is undeniable that the fur industry is one of
@@ -400,9 +480,14 @@ const TextPage = () => {
             bred, kept and skinned is something that should’ve been in the past
             since long. For many, fur might resemble glamour and richness, to me
             fur is a symbol of coloniality, capitalism, the elite and animal
-            cruelty. L: I think the awareness is growing in general. I had an
+            cruelty.</p> 
+            
+            
+            <p>L: I think the awareness is growing in general. I had an
             intern who explicitly said she would only come to intern with me if
-            we wouldn’t use real fur. So, the awareness is growing. F: Really
+            we wouldn’t use real fur. So, the awareness is growing.</p> 
+            
+            <p>F: Really
             great to hear about such determination coming from a student
             applying for an internship. As you know, due to this focus on fur, I
             was also doubtful to work on this text, but as soon as it became
@@ -422,11 +507,15 @@ const TextPage = () => {
             other living beings, and I believe your work does that. As I believe
             the fur coat is a garment not to wear, buy or promote at all I would
             surely say to wear or look at the work of Langendijk and Passama,
-            instead. Not sure if this should be in this text, or in a colophon
+            instead. </p>
+            
+            <p>
+            Not sure if this should be in this text, or in a colophon
             on the website. The jacquard textiles: Milou Voorwinden and Suzanne
             Oude Hengel Knitwear: Knitwearlab Perfumer: Frank Bloem (The
             Snifferoo) Tailor of coats: Saskia Stockler
-          </p>
+            </p>
+            </div>
         </motion.div>
       </motion.section>
     </>
