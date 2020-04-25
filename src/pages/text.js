@@ -31,7 +31,7 @@ const TextPage = () => {
         animate="visible"
         className="container-small"
       >
-        <motion.div className="content" variants={item} transition="easeInOut">
+        {/* <motion.div className="content" variants={item} transition="easeInOut">
           <h1 className="text-5xl tracking-widest">LIVIN IT</h1>
         </motion.div>
 
@@ -39,18 +39,18 @@ const TextPage = () => {
           className="content"
           variants={item}
           transition="easeInOut"
-        ></motion.div>
+        ></motion.div> */}
 
         <motion.div
           className="content font-bold"
           variants={item}
           transition="easeInOut"
         >
-          <hr className="block my-8" />
-          <p>
+          {/* <hr className="block my-8" /> */}
+           <p>
             A conversation between Passama/Langendijk and Femke de Vries on
             24/03/2020
-          </p>
+            </p>
         </motion.div>
 
         <motion.div className="content" variants={item} transition="easeInOut">
@@ -66,6 +66,7 @@ const TextPage = () => {
             of 5 coats, several jewelry pieces, a pomander and scent. Each item
             explores certain values and ideas around fur.
           </p>
+          <img></img>
           <p>
             This is the second project that fashion designer Barbara Langendijk
             and jewelry designer Noon Passama work on together, and some items
@@ -98,9 +99,9 @@ const TextPage = () => {
             this woman.
           </p>
           
-            <hr className="block mb-6 mt-8" />
+           
             <h2>‘ELITENESS’</h2>
-            <hr className="block mb-8" />
+     
             <p>
               F: I was wondering how you decided who to
               visualize on this particular coat. How did you choose?
