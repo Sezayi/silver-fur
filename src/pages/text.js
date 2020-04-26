@@ -119,8 +119,8 @@ const TextPage = () => {
             <img className="lg:w-5/5 my-8" src={Armband2} alt="Armband 2"></img>
             <img className="lg:w-5/5 my-8" src={Armband3} alt="Armband 3"></img>
             <h2>‘ELITENESS’</h2>
-            <p className="font-bold">
-              F: I was wondering how you decided who to visualize in this
+            <p>
+              <strong>F:</strong> I was wondering how you decided who to visualize in this
               particular coat. How did you choose?
             </p>
             <p>
