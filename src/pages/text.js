@@ -149,7 +149,7 @@ const TextPage = () => {
               earlier, I’m not an expert in fur, but am interested in it as a
               cultural symbol. And one of the things fur clearly states is
               wealth. It was interesting to read in The Berg Companion to
-              Fashion<sup>1</sup> that 1 from the fourteenth to the seventeenth
+              Fashion<sup>1</sup> that from the fourteenth to the seventeenth
               century, the kings and queens of England issued royal
               proclamations in order to regulate fur. These royal proclamations
               became part of what is known as “sumptuary legislation” in which
@@ -160,7 +160,7 @@ const TextPage = () => {
               of social status in the wearer of fur<sup>2</sup>. So, fur is not
               just for the elite because it was unaffordable for the ‘common
               people’, it was also wealth, is when fur entered the world-wide
-              trade. In 1670 Hudson’s Bay Company<sup>3</sup> was granted the 3
+              trade. In 1670 Hudson’s Bay Company<sup>3</sup> was granted the
               Royal Charter from king Charles II, meaning that they gained the
               right and power to trade fur. “Hudson’s Bay has played an
               essential role in the fur trade which was established in the
@@ -180,7 +180,7 @@ const TextPage = () => {
               more people might be able to afford a coat with a fur trimming,
               the idea of fur as an elitist garment still strongly exists. Now
               not because of sumptuary laws but because its expensive
-              <sup>5</sup> and because it has always been, 5 and still is, a
+              <sup>5</sup> and because it has always been, and still is, a
               symbol of wealth and glamour.
               <br />
               The idea of wearing a fur coat on track pants or with a sporty

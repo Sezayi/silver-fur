@@ -49,7 +49,7 @@ const IndexPage = () => {
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <div className="font-medium text-gray-800 text-2xl">
+          <div className="font-medium text-center text-gray-800 text-2xl px-4">
           A RESEARCH INTO THE VALUES AND MEANINGS OF FUR
           </div>
         </motion.div>
