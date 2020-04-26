@@ -33,7 +33,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <SEO title="Home" />
+      <SEO title="FUR" />
       <motion.section
         variants={container}
         initial="hidden"
@@ -50,7 +50,7 @@ const IndexPage = () => {
 
         <motion.div variants={item} transition="easeInOut">
           <div className="font-medium text-gray-800 text-2xl">
-            A GRANDEUR ADVENTURE INTO FUR
+          A RESEARCH INTO THE VALUES AND MEANINGS OF FUR
           </div>
         </motion.div>
       </motion.section>

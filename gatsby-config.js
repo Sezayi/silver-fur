@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `FEEL THE FUR`,
+    title: `PASSAMA / LANGENDIJK`,
     description: `PASSAMA / LANGENDIJK`,
     author: `@sezayi arslan`,
   },
