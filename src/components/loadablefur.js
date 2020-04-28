@@ -1,16 +1,13 @@
-import React from "react"
-import loadable from '@loadable/component'
+import Loadable from 'react-loadable';
+import Loading from './my-loading-component';
 
+const LoadableFur = Loadable({
+  loader: () => import('../components/fur'),
+  loading: Loading,
+});
 
-const Fur = loadable(() => import('../components/fur'))
-
-// function LoadableFur() {
-//   return (
-//     <div>
-//       <Fur />
-//     </div>
-//   )
-// }
-
-export default Fur
-
+export default class App extends React.Component {
+  render() {
+    return <LoadableFur/>;
+  }
+}

@@ -1,5 +1,6 @@
 // require('./noise')
 
+
 let canvas, ctx, field, w, h, fieldSize, columns, rows, noiseZ, particles, hue
 noiseZ = 0
 let particleCount = 25000
