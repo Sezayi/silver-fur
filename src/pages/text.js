@@ -45,9 +45,15 @@ const TextPage = () => {
         animate="visible"
         className="container-small"
       >
+        <h3 className=" font-bold">
+          A conversation between Passama/Langendijk and Femke de Vries on
+          24/03/2020
+        </h3>
         {/* <motion.div className="content" variants={item} transition="easeInOut">
           <h1 className="text-5xl tracking-widest">LIVIN IT</h1>
         </motion.div>
+
+       
 
         <motion.div
           className="content"
@@ -61,10 +67,6 @@ const TextPage = () => {
           transition="easeInOut"
         >
           {/* <hr className="block my-8" /> */}
-          <p className=" font-bold">
-            A conversation between Passama/Langendijk and Femke de Vries on
-            24/03/2020
-          </p>
         </motion.div>
 
         <motion.div className="content" variants={item} transition="easeInOut">
@@ -120,8 +122,8 @@ const TextPage = () => {
             <img className="lg:w-5/5 my-8" src={Armband3} alt="Armband 3"></img>
             <h2>‘ELITENESS’</h2>
             <p>
-              <strong>F:</strong> I was wondering how you decided who to visualize in this
-              particular coat. How did you choose?
+              <strong>F:</strong> I was wondering how you decided who to
+              visualize in this particular coat. How did you choose?
             </p>
             <p>
               <strong>P/L:</strong> We made a collection of images with
@@ -298,16 +300,16 @@ const TextPage = () => {
               header for an article on a website of a fur company: “Kim
               Kardashian loves fur. She is a fashion assassin; she kills in
               anything she wears. Kim is the focal point of millions of would be
-              fashionistas worldwide” .<sup>8</sup> So, besides fur being linked to elite
-              it is also connected to the hunter, the hunt. The hunting of the
-              rare, the exclusive. These texts clearly show how various forms of
-              power come together in fur. Besides that, these texts both apply
-              to a garment and an animal at the same time; the rare animal,
-              which is being hunted, is seen as prey and as a trophy piece. The
-              fur coat as fashion item can also be seen as a trophy piece, that
-              someone has hunted for and now wears. It is interesting and
-              painful to see how the hunt and killing of animals is objectified
-              and connected to glamour and power.
+              fashionistas worldwide” .<sup>8</sup> So, besides fur being linked
+              to elite it is also connected to the hunter, the hunt. The hunting
+              of the rare, the exclusive. These texts clearly show how various
+              forms of power come together in fur. Besides that, these texts
+              both apply to a garment and an animal at the same time; the rare
+              animal, which is being hunted, is seen as prey and as a trophy
+              piece. The fur coat as fashion item can also be seen as a trophy
+              piece, that someone has hunted for and now wears. It is
+              interesting and painful to see how the hunt and killing of animals
+              is objectified and connected to glamour and power.
             </p>
             <p>
               <strong>F:</strong> This one I believe is also specifically
@@ -327,7 +329,8 @@ const TextPage = () => {
               in the language area: when you wear a coat made of fox or mink
               hide you would say ‘I’m wearing fox’, or ‘I’m wearing mink’. The
               garment is literally named after the animal. It changes the
-              concept of this well-known question; ‘who are you wearing?’<sup>9</sup>
+              concept of this well-known question; ‘who are you wearing?’
+              <sup>9</sup>
               <br />
               This dynamic of the coat, moving between various beings, also
               brings up the thought of women wearing fur coats and holding their
@@ -347,12 +350,12 @@ const TextPage = () => {
               (HBC), HBC not only got this position in the fur trade but also
               gained ownership of all the land drained by the rivers flowing
               into Hudson’s Bay (…) this area covered approximately 40% of
-              modern Canada.<sup>10</sup> “The Hudson’s Bay, a company that is known for its
-              colonial power, deliberately pushed away first nations
-              communities, taking over their natural trade. The history of the
-              fur trade and fur garments is in many was a history of imperial
-              class distinctions but one that is also marked by gender and
-              cultural differences”<sup>11</sup>.
+              modern Canada.<sup>10</sup> “The Hudson’s Bay, a company that is
+              known for its colonial power, deliberately pushed away first
+              nations communities, taking over their natural trade. The history
+              of the fur trade and fur garments is in many was a history of
+              imperial class distinctions but one that is also marked by gender
+              and cultural differences”<sup>11</sup>.
             </p>
             <p>
               <strong>P/L:</strong> And this sentence is also interesting: “For
@@ -397,7 +400,8 @@ const TextPage = () => {
             <p>
               <strong>P/L:</strong> Yes, to explore fur from another dimension
               and the many ways in which it can be experienced, we made a scent
-              which goes together with a paper coat and a paper pomander.<sup>12</sup>{" "}
+              which goes together with a paper coat and a paper pomander.
+              <sup>12</sup>{" "}
             </p>
             <p>
               <strong>F:</strong> How did you decide what the scent should be
@@ -545,23 +549,24 @@ const TextPage = () => {
               (FdV: in animals) whether feathers, leather or skins they must
               have seemed incomprehensible to other animals, so they had no
               choice but to accept them (…). As a disguise these garments did
-              not call attention but deflected it. The hunters were invisible”<sup>13</sup>.
-              Today people wear fur, they wear animals in the city, a place
-              where there are no other animals, only humans. In this environment
-              fur-wearers don’t deflect but become very visible. Today we dress
-              up like an animal to grab attention and look elitist.
+              not call attention but deflected it. The hunters were invisible”
+              <sup>13</sup>. Today people wear fur, they wear animals in the
+              city, a place where there are no other animals, only humans. In
+              this environment fur-wearers don’t deflect but become very
+              visible. Today we dress up like an animal to grab attention and
+              look elitist.
             </p>
             <h2>ALTERNATIVES FOR CRUELTY</h2>
             <p>
               <strong>F:</strong> Today fur is a strong symbol for animal
-              cruelty<sup>14</sup> “By the 1970s the fur coat was transformed from a
-              desirable female commodity to a symbol for animal right’s
-              activism”<sup>15</sup> It is undeniable that the fur industry is one of animal
-              cruelty. The many ways in which these animals are hunted, bred,
-              kept and skinned is something that should’ve been in the past
-              since long. For many, fur might resemble glamour and richness, to
-              me fur is a symbol of coloniality, capitalism, the elite and
-              animal cruelty.
+              cruelty<sup>14</sup> “By the 1970s the fur coat was transformed
+              from a desirable female commodity to a symbol for animal right’s
+              activism”<sup>15</sup> It is undeniable that the fur industry is
+              one of animal cruelty. The many ways in which these animals are
+              hunted, bred, kept and skinned is something that should’ve been in
+              the past since long. For many, fur might resemble glamour and
+              richness, to me fur is a symbol of coloniality, capitalism, the
+              elite and animal cruelty.
             </p>
             <p>
               <strong>L:</strong> I think the awareness is growing in general. I
