@@ -61,13 +61,13 @@ const TextPage = () => {
           transition="easeInOut"
         >
           {/* <hr className="block my-8" /> */}
-          <p className="font-bold">
+          <p className="px-2 font-bold">
             A conversation between Passama/Langendijk and Femke de Vries on
             24/03/2020
           </p>
         </motion.div>
 
-        <motion.div className="content" variants={item} transition="easeInOut">
+        <motion.div className="content px-2" variants={item} transition="easeInOut">
           <div>
             <p>
               After being in touch about their work some time ago, I received an
