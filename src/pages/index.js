@@ -37,14 +37,14 @@ const IndexPage = () => {
       >
         <motion.div variants={item} transition="easeInOut">
           <h1
-            className="font-normal text-gray-800 text-6xl text-center lg:text-7xl"
+            className="font-normal text-gray-800 text-3xl text-center lg:text-7xl"
           >
             PASSAMA / LANGENDIJK
           </h1>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <div className="font-medium text-center text-gray-800 text-2xl px-4">
+          <div className="font-medium text-center text-gray-800 text-xl px-4">
           A RESEARCH INTO THE VALUES AND MEANINGS OF FUR
           </div>
         </motion.div>
