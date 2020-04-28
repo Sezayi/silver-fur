@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
 import SEO from "../components/seo"
-import Particles from "../components/fur"
 import { motion } from "framer-motion"
 
 const duration = 0.35
@@ -24,11 +23,7 @@ const item = {
 
 const IndexPage = () => {
   useEffect(() => {
-    Particles.draw()
 
-    return () => {
-      Particles.clear()
-    }
   })
 
   return (
