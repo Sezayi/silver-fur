@@ -37,7 +37,7 @@ const AboutPage = () => {
 
         <motion.div className="content" variants={item} transition="easeInOut">
           <p>
-            <strong>Project Passama/Langendijk</strong>. The starting point for our research
+            <h3 className="font-bold">Project Passama/Langendijk</h3> The starting point for our research
             project is the first collaborative collection we worked on in 2017,
             which intertwined jewellery and fashion. In the previous project, we
             combined a technical textile with precious metal and called the
@@ -70,7 +70,7 @@ const AboutPage = () => {
         >
           <div>
             <p>
-              <strong>Noon Passama</strong> is a Bangkok-born jewellery
+              <h3 className="font-bold">Noon Passama</h3> Noon Passama is a Bangkok-born jewellery
               designer. In 2007, she moved to the Netherlands where she
               graduated from Gerrit Rietveld Academie. Her main interest is
               based on existing jewellery typologies in connection to broader
@@ -82,7 +82,8 @@ const AboutPage = () => {
           </div>
           <div>
             <p>
-              <strong>Barbara Langendijk</strong> is a Dutch fashion designer.
+              <h3 className="font-bold">Barbara Langendijk</h3>
+              Barbara Langendijk is a Dutch fashion designer.
               She studied fashion design at ArtEZ Fashion Masters and HKU
               University of the Arts. Since her graduation Barbara has been
               working on new interpretations of garment construction by
@@ -93,12 +94,13 @@ const AboutPage = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div className="content" variants={item} transition="easeInOut">
-          <p className="font-bold">This project is funded by</p>
+        <motion.div className="content mt-8" variants={item} transition="easeInOut">
+         
+          <h3 className="font-bold">This project is funded by</h3>
           <img className="lg:w-1/5 mt-8 mb-16" src={Logo} alt="Logo Creative Industries NL"></img>
         </motion.div>
         <motion.div className="content" variants={item} transition="easeInOut">
-          <p className="font-bold">Collaborative partners</p>
+          <h3 className="font-bold">Collaborative partners</h3>
           <p className="my-2">Femke de Vries</p>
           <p className="my-2">Frank Bloem - The Snifferoo</p>
           <p className="my-2">Milou Voorwinden and Suzanne Oude Hengel</p>

@@ -61,7 +61,7 @@ const TextPage = () => {
           transition="easeInOut"
         >
           {/* <hr className="block my-8" /> */}
-          <p>
+          <p className="font-bold">
             A conversation between Passama/Langendijk and Femke de Vries on
             24/03/2020
           </p>
