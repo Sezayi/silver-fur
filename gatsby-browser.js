@@ -1,7 +1,9 @@
 import React from "react";
 import Layout from "./src/components/layout";
+import Fur from "./src/components/fur"
 
 const transitionDelay = 350;
+const fur = new Fur();
 
 export const wrapPageElement = ({ element, props }) => {
   return <Layout {...props}>{element}</Layout>;
@@ -22,3 +24,12 @@ export const shouldUpdateScroll = ({
   }
   return false;
 };
+
+export const onRouteUpdate = ({ location, prevLocation }) => {
+  if (location.pathname == '/') {
+    fur.reset();
+    fur.draw();
+  } else {
+    fur.clear()
+  }
+}
