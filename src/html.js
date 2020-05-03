@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
@@ -11,7 +12,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script src="https://codepen.io/Tibixx/pen/BbBxRG.js">{}</script>
+        <script src="/static/d/noise.js">{}</script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
