@@ -1,4 +1,4 @@
-// require('./noise')
+require('./noise')
 
 
 class Vector {
