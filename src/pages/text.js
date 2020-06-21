@@ -45,9 +45,8 @@ const TextPage = () => {
         animate="visible"
         className="container-small"
       >
-        <h3 className=" font-bold">
-          A conversation between Passama/Langendijk and Femke de Vries on
-          24/03/2020
+        <h3 className="font-bold">
+          A conversation between Passama/Langendijk and Femke de Vries
         </h3>
         {/* <motion.div className="content" variants={item} transition="easeInOut">
           <h1 className="text-5xl tracking-widest">LIVIN IT</h1>
@@ -120,7 +119,8 @@ const TextPage = () => {
             <img className="lg:w-5/5 my-8" src={Armband} alt="Armband 1"></img>
             <img className="lg:w-5/5 my-8" src={Armband2} alt="Armband 2"></img>
             <img className="lg:w-5/5 my-8" src={Armband3} alt="Armband 3"></img>
-            <h2>‘ELITENESS’</h2>
+            <p>* Three bracelets made by plating silver directly on the 3D-spacer textile. The textile was cut in different lengths and assembled into the shapes before the silver-plating process.</p>
+            <h3>‘ELITENESS’</h3>
             <p>
               <strong>F:</strong> I was wondering how you decided who to
               visualize in this particular coat. How did you choose?
@@ -130,7 +130,7 @@ const TextPage = () => {
               celebrities who have contributed to today’s popularity of fur.
               They are all celebrities, but from different fields of work. But
               they do have the same way of wearing fur; big, glamourous and over
-              the top. The selection of celebrities encompasses Melanie Trump,
+              the top. The selection of celebrities encompasses Melania Trump,
               Lady Gaga, Snoop Dogg, Kim Kardashian, Kendall Jenner, Justin
               Bieber and Rihanna, and we have more. All of them are sporting
               these over-the-top big fluffy fur coats worn with exaggeration.
@@ -145,6 +145,7 @@ const TextPage = () => {
               src={CelebrityCoat}
               alt="celebrity coat"
             ></img>
+            <p>* The ‘inside’ of the celebrity coat.</p>
             <p>
               <strong>F:</strong> This idea of celebrities wearing fur coats
               shows the connection between the elite and fur. As we discussed
@@ -199,9 +200,9 @@ const TextPage = () => {
               (1920s) that “saw the image of the fur-clad woman emerge as a sign
               of unevenly distributed economic wealth”<sup>6</sup>.
             </p>
-            <h2>INSIDE - OUTSIDE</h2>
+            <h3>INSIDE - OUTSIDE</h3>
             <p>
-              P/L: Deciding which images of fur-wearing celebrities to use
+              <strong>P/L:</strong> Deciding which images of fur-wearing celebrities to use
               wasn’t easy because on a photo its often hard to see if it’s real
               fur or not. Which makes you realize that, in order to know if it’s
               real, you actually really have to touch it, open up the hairs or
@@ -247,6 +248,7 @@ const TextPage = () => {
               src={CelebrityCoat3}
               alt="Celebrity Coat 3"
             ></img>
+            <p>* The ‘outside’ of the celebrity coat. The images show the front and back view.</p>
             <p>
               <strong>F:</strong> Fur is something we flaunt, it is something
               that’s clearly shown. And it is interesting to see how
@@ -287,7 +289,8 @@ const TextPage = () => {
               excessiveness of her lifestyle and the coat itself.
             </p>
             <img className="lg:w-5/5 my-8" src={TextCoat} alt="TextCoat"></img>
-            <h2>THE HUNT </h2>
+            <p>* The fur-text coat.</p>
+            <h3>THE HUNT </h3>
             <p>
               <strong>F:</strong> What is interesting is that there are also
               sentences connected to hunting in there. I noticed the following
@@ -340,7 +343,7 @@ const TextPage = () => {
               The woman and the dog have a loving relation, but there’s a weird
               and dark dynamic between the three of them. Dog-women-dog.
             </p>
-            <h2>CULTURED </h2>
+            <h3>CULTURED </h3>
             <p>
               <strong>F:</strong> Next to the hunter who hunts animals, another
               layer of power is added when you think of how the fur trade went
@@ -393,6 +396,7 @@ const TextPage = () => {
               src={KnittedCoat}
               alt="Knitted Coat"
             ></img>
+            <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
             <p>
               <strong>F:</strong> Besides exploring the texture and tactility of
               fur, you have also explored other forms.{" "}
@@ -417,6 +421,7 @@ const TextPage = () => {
               animal itself.{" "}
             </p>
             <img className="lg:w-5/5 my-8" src={FurFume} alt="FurFume"></img>
+            <p>* The final fur perfume.</p>
             <p>
               <strong>F:</strong> What kind of brief did you sent the perfumer,
               how did you specifically describe what the scent of fur is to you?{" "}
@@ -456,6 +461,7 @@ const TextPage = () => {
               the texture of fur.{" "}
             </p>
             <img className="lg:w-5/5 my-8" src={Pomander} alt="pomander"></img>
+            <p>* The pomander made of layers of paper. It can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
             <p>
               <strong>F:</strong> The paper pomander actually also looks like an
               animal’s tail, as it is a long cord with a dot of ‘hair’ at the
@@ -479,12 +485,13 @@ const TextPage = () => {
               src={PaperCoat}
               alt="Paper Coat"
             ></img>
+            <p>* The paper coat made of paper and washi textile. The paper is engraved with a hair pattern. The coat can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
             <img
               className="lg:w-5/5 my-8"
               src={TextCoatWoven}
               alt="TextCoatWoven"
             ></img>
-            <h2>DURABILITY</h2>
+            <h3>DURABILITY</h3>
             <p>
               <strong>F:</strong> This idea of the scent of a ‘granny fur coat’
               hints to the concept of the heirloom, and as you mentioned before,
@@ -531,7 +538,7 @@ const TextPage = () => {
               hair. She settles down next to Noon. We continue our conversation
               while Noon pets Moon.
             </p>
-            <h2> DRESSING UP</h2>
+            <h3> DRESSING UP</h3>
             <p>
               <strong>F:</strong> When you asked me to write a text about this
               project I also had to think about my childhood. We used to have a
