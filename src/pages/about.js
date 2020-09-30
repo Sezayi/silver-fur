@@ -99,7 +99,7 @@ const AboutPage = () => {
           <h3 className="font-bold">This project is funded by</h3>
           <img className="lg:w-1/5 mt-8 mb-16" src={Logo} alt="Logo Creative Industries NL"></img>
         </motion.div>
-        <motion.div className="content" variants={item} transition="easeInOut">
+        <motion.div className="content mb-16" variants={item} transition="easeInOut">
           <h3 className="font-bold">Collaborative partners</h3>
           <p className="my-2">Femke de Vries</p>
           <p className="my-2">Frank Bloem - The Snifferoo</p>
@@ -107,6 +107,10 @@ const AboutPage = () => {
           <p className="my-2">Saskia Stöckler</p>
           <p className="my-2">The Knitwear Lab</p>
           <p className="my-2">Team Peter Stigter</p>
+        </motion.div>
+        <motion.div className="content" variants={item} transition="easeInOut">
+          <h3 className="font-bold">Animation / Webdesign</h3>
+          <p className="my-2">Sezayi Arslan</p>
         </motion.div>
       </motion.section>
     </>
