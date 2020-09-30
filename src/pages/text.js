@@ -672,8 +672,7 @@ loves-fur/"
                 href="http://www.hbcheritage.ca/people/governors/king-charles-ii-and-the-early-gov 10 -
 ernors-of-hbc"
               >
-                http://www.hbcheritage.ca/people/governors/king-charles-ii-and-the-early-gov
-                10 - ernors-of-hbc.
+                http://www.hbcheritage.ca/
               </a>{" "}
               [Accessed: 07/04/2020]
             </div>
