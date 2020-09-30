@@ -1,10 +1,12 @@
 import React from "react"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import Armband from "../images/Armband1.jpeg"
-import Armband2 from "../images/armband2.jpg"
-import Armband3 from "../images/armband3.jpeg"
+// import Armband from "../images/Armband1.jpeg"
+// import Armband2 from "../images/armband2.jpg"
+// import Armband3 from "../images/armband3.jpeg"
 import CelebrityCoat from "../images/PASSAMA-LANGENDIJK_0420_0151.jpeg"
 import CelebrityCoat2 from "../images/CelebrityCoat2.jpg"
 import CelebrityCoat3 from "../images/CelebrityCoat3.jpeg"
@@ -35,7 +37,7 @@ const item = {
   },
 }
 
-const TextPage = () => {
+const TextPage = ({data}) => {
   return (
     <>
       <SEO title="PROJECT" />
@@ -116,9 +118,10 @@ const TextPage = () => {
               time we meet is online and I tell them about my encounter with
               this woman.
             </p>
-            <img className="lg:w-5/5 my-8" src={Armband} alt="Armband 1"></img>
-            <img className="lg:w-5/5 my-8" src={Armband2} alt="Armband 2"></img>
-            <img className="lg:w-5/5 my-8" src={Armband3} alt="Armband 3"></img>
+            <Img fluid={data.Armband1.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img fluid={data.Armband2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img fluid={data.Armband3.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>* Three bracelets made by plating silver directly on the 3D-spacer textile. The textile was cut in different lengths and assembled into the shapes before the silver-plating process.</p>
             <h3>‘ELITENESS’</h3>
             <p>
@@ -140,11 +143,8 @@ const TextPage = () => {
               do. By putting them together it shows the extravagance of these
               big personalities with impressive coats in a bit of an ironic way.
             </p>
-            <img
-              className="lg:w-5/5 my-8"
-              src={CelebrityCoat}
-              alt="celebrity coat"
-            ></img>
+            <Img fluid={data.celebcoat1.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>* The ‘inside’ of the celebrity coat.</p>
             <p>
               <strong>F:</strong> This idea of celebrities wearing fur coats
@@ -238,16 +238,9 @@ const TextPage = () => {
               interesting to create this dynamic between inside and outside,
               visible and invisible.
             </p>
-            <img
-              className="lg:w-5/5 my-8"
-              src={CelebrityCoat2}
-              alt="Celebrity Coat 2"
-            ></img>
-            <img
-              className="lg:w-5/5 my-8"
-              src={CelebrityCoat3}
-              alt="Celebrity Coat 3"
-            ></img>
+            <Img fluid={data.celebcoat2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img fluid={data.celebcoat3.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            
             <p>* The ‘outside’ of the celebrity coat. The images show the front and back view.</p>
             <p>
               <strong>F:</strong> Fur is something we flaunt, it is something
@@ -288,7 +281,7 @@ const TextPage = () => {
               “drama” clearly link to the idea of this elitist woman and the
               excessiveness of her lifestyle and the coat itself.
             </p>
-            <img className="lg:w-5/5 my-8" src={TextCoat} alt="TextCoat"></img>
+            <Img fluid={data.furtextcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
             <p>* The fur-text coat.</p>
             <h3>THE HUNT </h3>
             <p>
@@ -391,11 +384,8 @@ const TextPage = () => {
               translation that challenges one of the main traits of fur, in this
               case its thick, fluffy character.{" "}
             </p>
-            <img
-              className="lg:w-5/5 my-8"
-              src={KnittedCoat}
-              alt="Knitted Coat"
-            ></img>
+            <Img fluid={data.knittedcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
             <p>
               <strong>F:</strong> Besides exploring the texture and tactility of
@@ -420,7 +410,8 @@ const TextPage = () => {
               is more like an impression of fur than to imitate the smell of the
               animal itself.{" "}
             </p>
-            <img className="lg:w-5/5 my-8" src={FurFume} alt="FurFume"></img>
+            <Img fluid={data.furfume.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>* The final fur perfume.</p>
             <p>
               <strong>F:</strong> What kind of brief did you sent the perfumer,
@@ -460,7 +451,7 @@ const TextPage = () => {
               look of the paper coat and the paper pomander both hints towards
               the texture of fur.{" "}
             </p>
-            <img className="lg:w-5/5 my-8" src={Pomander} alt="pomander"></img>
+            <Img fluid={data.pomander.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
             <p>* The pomander made of layers of paper. It can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
             <p>
               <strong>F:</strong> The paper pomander actually also looks like an
@@ -480,17 +471,11 @@ const TextPage = () => {
               <strong>P/L:</strong> Together the pomander, paper coat and scent
               make it possible to wear fur without really wearing it.{" "}
             </p>
-            <img
-              className="lg:w-5/5 my-8"
-              src={PaperCoat}
-              alt="Paper Coat"
-            ></img>
+            <Img fluid={data.papercoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>* The paper coat made of paper and washi textile. The paper is engraved with a hair pattern. The coat can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
-            <img
-              className="lg:w-5/5 my-8"
-              src={TextCoatWoven}
-              alt="TextCoatWoven"
-            ></img>
+            <Img fluid={data.papercoat2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>* The engraved detail on the paper coat made by the cutting machine.</p>
             <h3>DURABILITY</h3>
             <p>
@@ -515,11 +500,8 @@ const TextPage = () => {
               hints to the fluffiness and density of a fur coat. So, this coat
               connects the fur coat as heirloom and jewelry as heirloom.
             </p>
-            <img
-              className="lg:w-5/5 my-8"
-              src={JewelryCoat}
-              alt="Jewelry Coat"
-            ></img>
+            <Img fluid={data.heirloomcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+
             <p>
               <strong>F:</strong> As you mention, considering a garment as an
               heirloom questions our fast-fashion industry of quickly discarding
@@ -718,4 +700,103 @@ ernors-of-hbc"
   )
 }
 
+
 export default TextPage
+
+
+
+export const query = graphql`
+query{
+  Armband1: file(relativePath: { eq: "Armband1.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  Armband2: file(relativePath: { eq: "armband2.jpg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  Armband3: file(relativePath: { eq: "armband3.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  celebcoat1: file(relativePath: { eq: "celebcoat1.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  celebcoat2: file(relativePath: { eq: "celebcoat2.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  celebcoat3: file(relativePath: { eq: "celebcoat3.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  furtextcoat: file(relativePath: { eq: "furtextcoat3.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  knittedcoat: file(relativePath: { eq: "knittedcoat.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  furfume: file(relativePath: { eq: "furfume.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  pomander: file(relativePath: { eq: "pomander.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  papercoat: file(relativePath: { eq: "papercoat.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  papercoat2: file(relativePath: { eq: "papercoat2.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  heirloomcoat: file(relativePath: { eq: "heirloomcoat.jpeg" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`;
