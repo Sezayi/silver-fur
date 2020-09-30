@@ -384,7 +384,7 @@ const TextPage = ({data}) => {
               translation that challenges one of the main traits of fur, in this
               case its thick, fluffy character.{" "}
             </p>
-            <Img fluid={data.knittedcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img fluid={data.knittedcoat.childImageSharp.fluid} className="my-8"/>
 
             <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
             <p>
@@ -471,7 +471,7 @@ const TextPage = ({data}) => {
               <strong>P/L:</strong> Together the pomander, paper coat and scent
               make it possible to wear fur without really wearing it.{" "}
             </p>
-            <Img fluid={data.papercoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img fluid={data.papercoat.childImageSharp.fluid} className="my-8"/>
 
             <p>* The paper coat made of paper and washi textile. The paper is engraved with a hair pattern. The coat can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
             <Img fluid={data.papercoat2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
@@ -758,7 +758,7 @@ query{
   }
   knittedcoat: file(relativePath: { eq: "knittedcoat.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid{
         ...GatsbyImageSharpFluid
       }
     }
