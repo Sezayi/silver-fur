@@ -7,16 +7,16 @@ import Img from 'gatsby-image';
 // import Armband from "../images/Armband1.jpeg"
 // import Armband2 from "../images/armband2.jpg"
 // import Armband3 from "../images/armband3.jpeg"
-import CelebrityCoat from "../images/PASSAMA-LANGENDIJK_0420_0151.jpeg"
-import CelebrityCoat2 from "../images/CelebrityCoat2.jpg"
-import CelebrityCoat3 from "../images/CelebrityCoat3.jpeg"
-import TextCoat from "../images/PASSAMA-LANGENDIJK_0420_0098.jpeg"
-import TextCoatWoven from "../images/TextCoatWoven.jpg"
-import KnittedCoat from "../images/PASSAMA-LANGENDIJK_0420_0146.jpeg"
-import FurFume from "../images/PASSAMA-LANGENDIJK_0420_0083.jpeg"
-import Pomander from "../images/PASSAMA-LANGENDIJK_0420_0069.jpeg"
-import PaperCoat from "../images/PASSAMA-LANGENDIJK_0420_0110.jpeg"
-import JewelryCoat from "../images/PASSAMA-LANGENDIJK_0420_0145.jpeg"
+// import CelebrityCoat from "../images/PASSAMA-LANGENDIJK_0420_0151.jpeg"
+// import CelebrityCoat2 from "../images/CelebrityCoat2.jpg"
+// import CelebrityCoat3 from "../images/CelebrityCoat3.jpeg"
+// import TextCoat from "../images/PASSAMA-LANGENDIJK_0420_0098.jpeg"
+// import TextCoatWoven from "../images/TextCoatWoven.jpg"
+// import KnittedCoat from "../images/PASSAMA-LANGENDIJK_0420_0146.jpeg"
+// import FurFume from "../images/PASSAMA-LANGENDIJK_0420_0083.jpeg"
+// import Pomander from "../images/PASSAMA-LANGENDIJK_0420_0069.jpeg"
+// import PaperCoat from "../images/PASSAMA-LANGENDIJK_0420_0110.jpeg"
+// import JewelryCoat from "../images/PASSAMA-LANGENDIJK_0420_0145.jpeg"
 
 const duration = 0.35
 
@@ -709,7 +709,7 @@ export const query = graphql`
 query{
   Armband1: file(relativePath: { eq: "Armband1.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 1000){
         ...GatsbyImageSharpFluid
       }
     }
@@ -749,7 +749,7 @@ query{
       }
     }
   }
-  furtextcoat: file(relativePath: { eq: "furtextcoat3.jpeg" }) {
+  furtextcoat: file(relativePath: { eq: "furtextcoat.jpeg" }) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid
