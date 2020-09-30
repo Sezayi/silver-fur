@@ -491,6 +491,7 @@ const TextPage = () => {
               src={TextCoatWoven}
               alt="TextCoatWoven"
             ></img>
+            <p>* The engraved detail on the paper coat made by the cutting machine.</p>
             <h3>DURABILITY</h3>
             <p>
               <strong>F:</strong> This idea of the scent of a ‘granny fur coat’
