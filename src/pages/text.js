@@ -370,7 +370,7 @@ const TextPage = () => {
               <strong>F:</strong> Which is quite crude when we think of colonial
               powers and how they effected the ideas around ‘being cultured’.
             </p>
-            <h2>TEXTURE AND TACTILITY</h2>
+            <h3>TEXTURE AND TACTILITY</h3>
             <p>
               <strong>F:</strong> Throughout the process you have explored
               various values connected to the fur coat but besides that you also
@@ -564,7 +564,7 @@ const TextPage = () => {
               visible. Today we dress up like an animal to grab attention and
               look elitist.
             </p>
-            <h2>ALTERNATIVES FOR CRUELTY</h2>
+            <h3>ALTERNATIVES FOR CRUELTY</h3>
             <p>
               <strong>F:</strong> Today fur is a strong symbol for animal
               cruelty<sup>14</sup> “By the 1970s the fur coat was transformed
