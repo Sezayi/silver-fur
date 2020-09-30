@@ -15,8 +15,8 @@ import Img from 'gatsby-image';
 // import KnittedCoat from "../images/PASSAMA-LANGENDIJK_0420_0146.jpeg"
 // import FurFume from "../images/PASSAMA-LANGENDIJK_0420_0083.jpeg"
 // import Pomander from "../images/PASSAMA-LANGENDIJK_0420_0069.jpeg"
-// import PaperCoat from "../images/PASSAMA-LANGENDIJK_0420_0110.jpeg"
-// import JewelryCoat from "../images/PASSAMA-LANGENDIJK_0420_0145.jpeg"
+import PaperCoat from "../images/papercoat.jpeg"
+import heirloomcoat from "../images/heirloomcoat.jpeg"
 
 const duration = 0.35
 
@@ -281,7 +281,7 @@ const TextPage = ({data}) => {
               “drama” clearly link to the idea of this elitist woman and the
               excessiveness of her lifestyle and the coat itself.
             </p>
-            <Img fluid={data.furtextcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <img src={papercoat} className="lg:w-5/5 my-8" alt="Logo" />
             <p>* The fur-text coat.</p>
             <h3>THE HUNT </h3>
             <p>
@@ -384,7 +384,7 @@ const TextPage = ({data}) => {
               translation that challenges one of the main traits of fur, in this
               case its thick, fluffy character.{" "}
             </p>
-            <Img fluid={data.knittedcoat.childImageSharp.fluid} className="my-8"/>
+            <img src={knittedcoat} className="lg:w-5/5 my-8" alt="Logo" />
 
             <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
             <p>
