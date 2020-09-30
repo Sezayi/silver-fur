@@ -12,11 +12,11 @@ import Img from 'gatsby-image';
 // import CelebrityCoat3 from "../images/CelebrityCoat3.jpeg"
 // import TextCoat from "../images/PASSAMA-LANGENDIJK_0420_0098.jpeg"
 // import TextCoatWoven from "../images/TextCoatWoven.jpg"
-import KnittedCoat from "../images/knittedcoat.jpeg"
+// import KnittedCoat from "../images/PASSAMA-LANGENDIJK_0420_0146.jpeg"
 // import FurFume from "../images/PASSAMA-LANGENDIJK_0420_0083.jpeg"
 // import Pomander from "../images/PASSAMA-LANGENDIJK_0420_0069.jpeg"
-import PaperCoat from "../images/papercoat.jpeg"
-// import heirloomcoat from "../images/heirloomcoat.jpeg"
+// import PaperCoat from "../images/papercoat.jpeg"
+// import heirloomcoat from "../images/PASSAMA-LANGENDIJK_0420_0145.jpeg"
 
 const duration = 0.35
 
@@ -281,7 +281,7 @@ const TextPage = ({data}) => {
               “drama” clearly link to the idea of this elitist woman and the
               excessiveness of her lifestyle and the coat itself.
             </p>
-            <img src={PaperCoat} className="lg:w-5/5 my-8" alt="Logo" />
+            <Img fluid={data.furtextcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
             <p>* The fur-text coat.</p>
             <h3>THE HUNT </h3>
             <p>
@@ -384,7 +384,7 @@ const TextPage = ({data}) => {
               translation that challenges one of the main traits of fur, in this
               case its thick, fluffy character.{" "}
             </p>
-            <img src={KnittedCoat} className="lg:w-5/5 my-8" alt="Logo" />
+            <Img fluid={data.knittedcoat.childImageSharp.fluid} className="my-8"/>
 
             <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
             <p>
@@ -709,91 +709,91 @@ export const query = graphql`
 query{
   Armband1: file(relativePath: { eq: "Armband1.jpeg" }) {
     childImageSharp {
-      fluid(maxWidth: 1000){
+      fluid(maxWidth: 900){
         ...GatsbyImageSharpFluid
       }
     }
   }
   Armband2: file(relativePath: { eq: "armband2.jpg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900){
         ...GatsbyImageSharpFluid
       }
     }
   }
   Armband3: file(relativePath: { eq: "armband3.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   celebcoat1: file(relativePath: { eq: "celebcoat1.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   celebcoat2: file(relativePath: { eq: "celebcoat2.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   celebcoat3: file(relativePath: { eq: "celebcoat3.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   furtextcoat: file(relativePath: { eq: "furtextcoat.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   knittedcoat: file(relativePath: { eq: "knittedcoat.jpeg" }) {
     childImageSharp {
-      fluid{
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   furfume: file(relativePath: { eq: "furfume.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   pomander: file(relativePath: { eq: "pomander.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   papercoat: file(relativePath: { eq: "papercoat.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   papercoat2: file(relativePath: { eq: "papercoat2.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   heirloomcoat: file(relativePath: { eq: "heirloomcoat.jpeg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 900) {
         ...GatsbyImageSharpFluid
       }
     }
