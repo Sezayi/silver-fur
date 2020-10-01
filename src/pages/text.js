@@ -71,7 +71,7 @@ const TextPage = ({data}) => {
         </motion.div>
 
         <motion.div className="content" variants={item} transition="easeInOut">
-          <div>
+          <div className="relative">
             <p>
               After being in touch about their work some time ago, I received an
               email with the question to write about one of their projects, and
@@ -281,7 +281,9 @@ const TextPage = ({data}) => {
               “drama” clearly link to the idea of this elitist woman and the
               excessiveness of her lifestyle and the coat itself.
             </p>
+            <div className="relative">
             <Img fluid={data.furtextcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            </div>
             <p>* The fur-text coat.</p>
             <h3>THE HUNT </h3>
             <p>
@@ -384,8 +386,9 @@ const TextPage = ({data}) => {
               translation that challenges one of the main traits of fur, in this
               case its thick, fluffy character.{" "}
             </p>
+            <div className="relative">
             <Img fluid={data.knittedcoat.childImageSharp.fluid} className="my-8"/>
-
+            </div>
             <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
             <p>
               <strong>F:</strong> Besides exploring the texture and tactility of
