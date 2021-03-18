@@ -1,8 +1,8 @@
 import React from "react"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 // import Armband from "../images/Armband1.jpeg"
 // import Armband2 from "../images/armband2.jpg"
@@ -37,7 +37,7 @@ const item = {
   },
 }
 
-const TextPage = ({data}) => {
+const TextPage = ({ data }) => {
   return (
     <>
       <SEO title="PROJECT" />
@@ -118,11 +118,24 @@ const TextPage = ({data}) => {
               time we meet is online and I tell them about my encounter with
               this woman.
             </p>
-            <Img fluid={data.Armband1.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
-            <Img fluid={data.Armband2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
-            <Img fluid={data.Armband3.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img
+              fluid={data.Armband1.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
+            <Img
+              fluid={data.Armband2.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
+            <Img
+              fluid={data.Armband3.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
 
-            <p>* Three bracelets made by plating silver directly on the 3D-spacer textile. The textile was cut in different lengths and assembled into the shapes before the silver-plating process.</p>
+            <p>
+              * Three bracelets made by plating silver directly on the 3D-spacer
+              textile. The textile was cut in different lengths and assembled
+              into the shapes before the silver-plating process.
+            </p>
             <h3>‘ELITENESS’</h3>
             <p>
               <strong>F:</strong> I was wondering how you decided who to
@@ -143,7 +156,10 @@ const TextPage = ({data}) => {
               do. By putting them together it shows the extravagance of these
               big personalities with impressive coats in a bit of an ironic way.
             </p>
-            <Img fluid={data.celebcoat1.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img
+              fluid={data.celebcoat1.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
 
             <p>* The ‘inside’ of the celebrity coat.</p>
             <p>
@@ -160,19 +176,23 @@ const TextPage = ({data}) => {
               subject to public governance. “Thus, from very early on furs and
               fur garments were regulated, not only in order to establish a
               hierarchy in desirable fur, but also to create recognizable codes
-              of social status in the wearer of fur<sup>2</sup>. So, fur is not
-              just for the elite because it was unaffordable for the ‘common
-              people’, it was also wealth, is when fur entered the world-wide
-              trade. In 1670 Hudson’s Bay Company<sup>3</sup> was granted the
-              Royal Charter from king Charles II, meaning that they gained the
-              right and power to trade fur. “Hudson’s Bay has played an
-              essential role in the fur trade which was established in the
-              sixteenth century between France, and then England, and the New
-              World (what is now Canada). It led to fur circulating abundantly
-              among nobility as well as among a rising mercantile class of
-              consumers as distinctive sign of class and imperial wealth”
-              <sup>4</sup> .
-            </p>
+              of social status in the wearer of fur<sup>2</sup>.{" "} <br />
+              </p>
+              <p>
+                So, fur is not just for the elite because it was unaffordable
+                for the ‘common people’, it was also decided upon by royal
+                rules. Another important circumstance that contributed to fur
+                being a symbol of wealth, is when fur entered the world-wide
+                trade. In 1670 Hudson’s Bay Company<sup>3</sup> was granted the
+                Royal Charter from king Charles II, meaning that they gained the
+                right and power to trade fur. “Hudson’s Bay has played an
+                essential role in the fur trade which was established in the
+                sixteenth century between France, and then England, and the New
+                World (what is now Canada). It led to fur circulating abundantly
+                among nobility as well as among a rising mercantile class of
+                consumers as distinctive sign of class and imperial wealth”
+              <sup>4</sup>.
+              </p>
             <p>
               Of course, fur has a rich history existing long before (and also
               alongside) Western royalty and Western trade systems came into
@@ -202,23 +222,23 @@ const TextPage = ({data}) => {
             </p>
             <h3>INSIDE - OUTSIDE</h3>
             <p>
-              <strong>P/L:</strong> Deciding which images of fur-wearing celebrities to use
-              wasn’t easy because on a photo its often hard to see if it’s real
-              fur or not. Which makes you realize that, in order to know if it’s
-              real, you actually really have to touch it, open up the hairs or
-              burn and smell some hairs. It’s similar with this coat that we
-              made with the celebrities on/in it. It looks like hair but the
-              hairy structure actually exists of yarns, long floats. We first
-              learned about this jacquard weave, from an interest in the
-              technique. But then we noticed that the long floats from the weave
-              looked like hair. Jacquard is a technique that is used to weave
-              dessins. It is easy to recognize because of the big difference
-              between the two sides of the fabric. One side has a clear dessin,
-              the other side shows the floats that jump to new spots in the
-              weave leaving a messy look. These long floats resembling hair on
-              the ‘inside’ of the fabric and the clear depiction of the
-              celebrities on the ‘outside’, invited us to use both sides of the
-              fabric. A reversible coat.
+              <strong>P/L:</strong> Deciding which images of fur-wearing
+              celebrities to use wasn’t easy because on a photo its often hard
+              to see if it’s real fur or not. Which makes you realize that, in
+              order to know if it’s real, you actually really have to touch it,
+              open up the hairs or burn and smell some hairs. It’s similar with
+              this coat that we made with the celebrities on/in it. It looks
+              like hair but the hairy structure actually exists of yarns, long
+              floats. We first learned about this jacquard weave, from an
+              interest in the technique. But then we noticed that the long
+              floats from the weave looked like hair. Jacquard is a technique
+              that is used to weave dessins. It is easy to recognize because of
+              the big difference between the two sides of the fabric. One side
+              has a clear dessin, the other side shows the floats that jump to
+              new spots in the weave leaving a messy look. These long floats
+              resembling hair on the ‘inside’ of the fabric and the clear
+              depiction of the celebrities on the ‘outside’, invited us to use
+              both sides of the fabric. A reversible coat.
             </p>
             <p>
               <strong>F:</strong> This reversibility is very interesting as it
@@ -238,10 +258,19 @@ const TextPage = ({data}) => {
               interesting to create this dynamic between inside and outside,
               visible and invisible.
             </p>
-            <Img fluid={data.celebcoat2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
-            <Img fluid={data.celebcoat3.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
-            
-            <p>* The ‘outside’ of the celebrity coat. The images show the front and back view.</p>
+            <Img
+              fluid={data.celebcoat2.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
+            <Img
+              fluid={data.celebcoat3.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
+
+            <p>
+              * The ‘outside’ of the celebrity coat. The images show the front
+              and back view.
+            </p>
             <p>
               <strong>F:</strong> Fur is something we flaunt, it is something
               that’s clearly shown. And it is interesting to see how
@@ -269,11 +298,11 @@ const TextPage = ({data}) => {
               sentences that we’ve put on this coat. It includes sentences like:
               <div className="italic text-xl mt-8">“A sophisticated edit”</div>
               <div className="italic text-xl">“The grandeur of fur”</div>
-              <div className="italic text-xl">“Adds daytime drama to ank”</div>
+              <div className="italic text-xl">“Adds daytime drama to any look”</div>
               <div className="italic text-xl">
-                “Conjures fantasy, glamour couture”
+                “Conjures fantasy, glamour and couture”
               </div>
-              <div className="italic text-xl">“The label's love of drama"</div>
+              <div className="italic text-xl">“The label's love of drama”</div>
             </p>
             <p>
               <strong>F:</strong> Wow, this is so interesting. The words
@@ -282,7 +311,10 @@ const TextPage = ({data}) => {
               excessiveness of her lifestyle and the coat itself.
             </p>
             <div className="relative">
-            <Img fluid={data.furtextcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+              <Img
+                fluid={data.furtextcoat.childImageSharp.fluid}
+                className="lg:w-5/5 my-8"
+              />
             </div>
             <p>* The fur-text coat.</p>
             <h3>THE HUNT </h3>
@@ -387,9 +419,15 @@ const TextPage = ({data}) => {
               case its thick, fluffy character.{" "}
             </p>
             <div className="relative">
-            <Img fluid={data.knittedcoat.childImageSharp.fluid} className="my-8"/>
+              <Img
+                fluid={data.knittedcoat.childImageSharp.fluid}
+                className="my-8"
+              />
             </div>
-            <p>* The knitted coat with a pattern derived from a scanned image of fur.</p>
+            <p>
+              * The knitted coat with a pattern derived from a scanned image of
+              fur.
+            </p>
             <p>
               <strong>F:</strong> Besides exploring the texture and tactility of
               fur, you have also explored other forms.{" "}
@@ -413,7 +451,10 @@ const TextPage = ({data}) => {
               is more like an impression of fur than to imitate the smell of the
               animal itself.{" "}
             </p>
-            <Img fluid={data.furfume.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img
+              fluid={data.furfume.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
 
             <p>* The final fur perfume.</p>
             <p>
@@ -454,8 +495,15 @@ const TextPage = ({data}) => {
               look of the paper coat and the paper pomander both hints towards
               the texture of fur.{" "}
             </p>
-            <Img fluid={data.pomander.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
-            <p>* The pomander made of layers of paper. It can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
+            <Img
+              fluid={data.pomander.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
+            <p>
+              * The pomander made of layers of paper. It can carry the fur scent
+              by applying the perfume onto the paper surface. Once the scent
+              fades away, it can be re-applied.
+            </p>
             <p>
               <strong>F:</strong> The paper pomander actually also looks like an
               animal’s tail, as it is a long cord with a dot of ‘hair’ at the
@@ -474,12 +522,26 @@ const TextPage = ({data}) => {
               <strong>P/L:</strong> Together the pomander, paper coat and scent
               make it possible to wear fur without really wearing it.{" "}
             </p>
-            <Img fluid={data.papercoat.childImageSharp.fluid} className="my-8"/>
+            <Img
+              fluid={data.papercoat.childImageSharp.fluid}
+              className="my-8"
+            />
 
-            <p>* The paper coat made of paper and washi textile. The paper is engraved with a hair pattern. The coat can carry the fur scent by applying the perfume onto the paper surface. Once the scent fades away, it can be re-applied.</p>
-            <Img fluid={data.papercoat2.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <p>
+              * The paper coat made of paper and washi textile. The paper is
+              engraved with a hair pattern. The coat can carry the fur scent by
+              applying the perfume onto the paper surface. Once the scent fades
+              away, it can be re-applied.
+            </p>
+            <Img
+              fluid={data.papercoat2.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
 
-            <p>* The engraved detail on the paper coat made by the cutting machine.</p>
+            <p>
+              * The engraved detail on the paper coat made by the cutting
+              machine.
+            </p>
             <h3>DURABILITY</h3>
             <p>
               <strong>F:</strong> This idea of the scent of a ‘granny fur coat’
@@ -503,7 +565,10 @@ const TextPage = ({data}) => {
               hints to the fluffiness and density of a fur coat. So, this coat
               connects the fur coat as heirloom and jewelry as heirloom.
             </p>
-            <Img fluid={data.heirloomcoat.childImageSharp.fluid} className="lg:w-5/5 my-8"/>
+            <Img
+              fluid={data.heirloomcoat.childImageSharp.fluid}
+              className="lg:w-5/5 my-8"
+            />
 
             <p>
               <strong>F:</strong> As you mention, considering a garment as an
@@ -703,103 +768,100 @@ ernors-of-hbc"
   )
 }
 
-
 export default TextPage
 
-
-
 export const query = graphql`
-query{
-  Armband1: file(relativePath: { eq: "Armband1.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900){
-        ...GatsbyImageSharpFluid
+  query {
+    Armband1: file(relativePath: { eq: "Armband1.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    Armband2: file(relativePath: { eq: "armband2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    Armband3: file(relativePath: { eq: "armband3.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    celebcoat1: file(relativePath: { eq: "celebcoat1.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    celebcoat2: file(relativePath: { eq: "celebcoat2.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    celebcoat3: file(relativePath: { eq: "celebcoat3.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    furtextcoat: file(relativePath: { eq: "furtextcoat.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    knittedcoat: file(relativePath: { eq: "knittedcoat.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    furfume: file(relativePath: { eq: "furfume.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    pomander: file(relativePath: { eq: "pomander.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    papercoat: file(relativePath: { eq: "papercoat.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    papercoat2: file(relativePath: { eq: "papercoat2.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    heirloomcoat: file(relativePath: { eq: "heirloomcoat.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
-  Armband2: file(relativePath: { eq: "armband2.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900){
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  Armband3: file(relativePath: { eq: "armband3.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  celebcoat1: file(relativePath: { eq: "celebcoat1.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  celebcoat2: file(relativePath: { eq: "celebcoat2.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  celebcoat3: file(relativePath: { eq: "celebcoat3.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  furtextcoat: file(relativePath: { eq: "furtextcoat.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  knittedcoat: file(relativePath: { eq: "knittedcoat.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  furfume: file(relativePath: { eq: "furfume.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  pomander: file(relativePath: { eq: "pomander.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  papercoat: file(relativePath: { eq: "papercoat.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  papercoat2: file(relativePath: { eq: "papercoat2.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  heirloomcoat: file(relativePath: { eq: "heirloomcoat.jpeg" }) {
-    childImageSharp {
-      fluid(maxWidth: 900) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-}
-`;
+`
